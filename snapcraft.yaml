@@ -1,12 +1,12 @@
-name:  joust
-title:  Joust 3 - Revenge Of The Lava Troll
+name:  vegas-fever-winner-takes-all
+title:  Vegas Fever Winner Takes All
 version: "1.0"
-summary:   Update to the arcade classic
+summary:   Casino games
 description: |
-  Update to the arcade classic
+  Casino games
 
 grade: stable
-icon: joust_icon.png
+icon: vegas-fever-winner-takes-all_icon.png
 
 base: core18
 confinement: strict
@@ -20,11 +20,11 @@ environment:
   SOMMELIER_STRICT: "1"                                    # Make Sommelier exit when unset variable is used. (useful to find bugs in sommelier)
 
 apps:
-  joust:
+  vegas-fever-winner-takes-all:
     extensions: [ gnome-3-28 ]
     command: bin/sommelier run-exe
     environment:
-      RUN_EXE: "Joust3_RevengeOfTheLavaTroll.exe"
+      RUN_EXE: "Vegas_Fever_WTA.exe"
       #INSTALL_EXE: "$SNAP/Blockout25_setup.exe"
       #INSTALL_FLAGS: "/S"
     plugs:
