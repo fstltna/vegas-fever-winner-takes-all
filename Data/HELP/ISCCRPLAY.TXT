@@ -1,0 +1,138 @@
+CRAPS
+
+HOW TO PLAY CRAPS
+In Craps, you are betting on the results of rolling a pair of dice, either in the long-run, or on the next roll. The initial roll is always referred to as a 'Come Out' roll, and is treated differently than subsequent rolls. A marker on the table will tell you whether the upcoming roll is a 'Come Out' roll (when the marker is OFF) or if a point has been made (when the marker is ON.)
+
+HOW TO PLACE A BET
+To place a bet in Craps, click on the chip icon(s) representing the amount you want to bet.  As you click on chips, the number to the right of the instruction line will increase, showing you the amount you currently hold in your 'hand'.  To place the wager on the table, move your cursor over the area where you wish to bet.  If that area is a valid choice at the current time, hypertext will appear to the right of your cursor showing you how much you currently have bet at this location, and what the maximum amount is that you can bet.  To place your bet, left-mouse click on your chosen betting area.  To remove money from your 'hand', click on 'Clear'.  To remove all your bets from the table, click on 'Clear' again. (note:  Come, Don't Come, Pass, and Don't Pass bets cannot be removed from the table once a point is set.  They must be resolved normally.)
+
+PASS LINE BET
+The Pass Line bet is the most popular bet in Craps. You can only make a Pass Line bet on the 'Come Out' roll (when the marker is OFF).  There are three possible outcomes on a 'Come Out' roll:
+1) The shooter rolls craps (2,3 or 12). Pass Line
+ bets LOSE.
+2) The shooter rolls 7 or 11. Pass Line wins.
+3) The shooter rolls a point (4,5,6,8,9 or 10). The puck will be moved to the point which was rolled (ON). The shooter will continue to roll until he rolls the same number, in which case Pass Line wins, or the shooter rolls a 7 and all Pass Line bets and odds are lost. 
+NOTE: The Pass Line payoff is 1-1. So if you bet 
+$5.00 you will win $5.00.
+
+PASS ODDS
+The free odds, as they are commonly called, are placed behind your pass line bet. The payoff on the odds is totally dependent upon the point that is currently established, Meaning what number the puck is on. The minimum bet is equal to your passline bet and the maximum bet is your passline bet times the table odds. this means that if the table odds are double and you have $5.00 on the passline then you can wager a maximum of $5.00 X 2 = $10.00 on the Free Odds. The chart below will describe the payoffs.
+
+NUMBER   LAY     PAYOFF   EXAMPLE
+  4      1-1      2-1     lay $5.00 payoff $10.00
+  5      1-1      3-2     lay $6.00 payoff  $9.00
+  6      1-1      6-5     lay $5.00 payoff  $6.00
+  8      1-1      6-5     lay $5.00 payoff  $6.00
+  9      1-1      3-2     lay $6.00 payoff  $9.00
+ 10      1-1      2-1     lay $5.00 payoff $10.00
+(The example is assuming you had $5.00 on the NUMBER.)
+
+You will notice that on the 5 and 9, you can place a dollar more than the other numbers. The reason for this is that if the player laid $5.00 on the free odds and the point was made then the casino would owe $7.50 to which only $7.00 would be received because craps only pays on the dollar. Therefore the casino will allow a RIGHT better to lay a dollar more in order to even out the payoff. The net result of this is that the bettor risks an extra dollar to win $3 more rather than losing $0.50.
+
+DON'T PASS LINE BET
+There is no law that says you must bet with the shooter. This is where the Don't Pass Line comes into play. Simply put the Don't Pass Line is the opposite of the Pass line bet.
+There are four possible outcomes on a 'Come Out' roll:
+1) The shooter rolls 2 or 3. Don't Pass bets WIN.
+2) The shooter rolls a 12. This is a PUSH where Don't Pass bets neither win nor lose.
+3) The shooter rolls 7 or 11. Don't Pass LOSES.
+4) The shooter rolls a point (4,5,6,8,9 or 10). The puck will be moved to the point which was rolled (ON). The shooter will continue to roll until He rolls the same number in which case Don't Pass line LOSES or the shooter rolls a 7 and all Don't Pass bets and odds WIN.
+NOTE: The Don't Pass line payoff is 1-1. If you bet $5.00, you will win $5.00.
+
+DON'T PASS ODDS
+The Don't pass odds works somewhat like the pass odds with only one difference. The amount that you put down (lay) is greater than the amount you can win. You will notice a trend here with all the WRONG bet odds. The best way to show how the Don't pass free odds work is a chart.
+
+NUMBER    LAY     PAYOFF      EXAMPLE
+  4       2-1       1-2       lay $20.00 pay $10.00
+  5       3-2       2-3       lay $15.00 pay $10.00
+  6       6-5       5-6       lay $12.00 pay $10.00
+  8       6-5       5-6       lay $12.00 pay $10.00
+  9       3-2       2-3       lay $15.00 pay $10.00
+ 10       2-1       1-2       lay $20.00 pay $10.00
+(The example is assuming you had $10.00 on the Don't Pass.)
+
+COME BET
+This bet is played almost exactly like the Pass Line bet. The Come Bet can only be placed if there has been a point established (the puck is ON). The rules then follow the Pass Line bet rules with the following changes:
+1) If a Come point is made (the roll is 4, 5, 6, 8, 9, or 10), the bet is then moved to that number. If the number is repeated before a seven the Come Bet is WON. If a seven is rolled the bet is LOST.
+NOTE: The Come payoff is 1-1. If you bet $5.00, you will win $5.00.
+
+DON'T COME
+This bet is the equivalent of the Come Bet for wrong-bettors. When you place a Don't Come Bet, you are betting that the shooter will roll craps, or that if he makes a point, he will roll 7 before that number is rolled again.
+
+ODDS
+Casinos allow you to take odds on some bets. On all Pass, Don't Pass, Come, and Don't Come bets where a point has been made, you can lay odds up to the amount you have already bet on top of the original bet. This means you are making an additional bet on the point. 
+
+COME FREE ODDS
+Come free odds are the same as passline free odds.  Your minimum is equal to your original Come bet, and your maximum is equal to the Come bet times the odds amount.  When the roll is a come-out roll (puck is OFF), the odds bets will be turned off.  If the number rolled is one you have placed Come Odds on, your Come bet will win, and your odds bet will be returned to you.  If a seven is rolled, your Come bet will lose, and your odds will be returned to you.  Some casinos allow odds bets to be turned on during a come-out roll.
+
+DON'T COME FREE ODDS
+The Don't Come odds are the same as the Don't Pass odds, with the same restriction as the Come odds, that they are generally turned 'off' during a come out roll.
+
+BUY BETS
+Not everyone is willing to take the chance on a Come Bet losing, in which case, the Buy Bet is a very useful bet. In order to make a Buy Bet the player must place his bet, plus a 5% commission to the house on the number of his choice. The casino justifies this commission because the player is not risking the loss that would take place if he were to make a Come Bet where 'craps' will take your money before you can even make the point.
+
+PLACE BETS
+A similar bet to Buy Bets is Place Bet. The only difference is that there is no commission and the odds are not as good. 
+The odds for both Buy Bets and Place Bets are as follows:
+
+NUMBER     BUY     PLACE       BUY VIG       PLACE VIG
+4 or 10    2-1     9 - 5          5%           6.67%
+5 or 9     3-2     3 - 2          5%           4.00%
+6 or 8     7-5     6 - 5          5%           1.52%
+
+As you can see from the table, a Buy of 4 or 10 is a much smarter bet than a Place of 4 or 10. This is because the Place 4 or 10 has a 6.67% vigorish where the Buy 4 or 10 has only a 5% vigorish. This is a savings of 1.67%. (Note:  Some casinos may disallow some of these bets because they are a bad choice.)
+One final note on these bets is that both Buy and Place Bets can only be made after the 'Come Out' roll.  Some casinos may allow a player to turn these bets 'on' during the come-out roll if they have already been placed.
+
+LAY BETS
+Lay Bets are the Buy Bets for the wrong bettors. Simply put, the Lay bettor is betting that a seven will come up before the number.  Because there is such an advantage in making this bet, the casino charges a 5% commission on the winnings and the player must lay the odds. This means that if the payoff is 2-1 for a Buy Bet, then the Lay bettor must put down 2 chips for every one he will win and then tack on a 5% commission.  A Lay Bet is placed on the table with a Lay Bet marker on top. This bet may be turned on or off by the player at any time. However, the lay bet can not be placed during the 'Come Out' roll.
+
+PROPOSITION BETS
+Proposition Bets are one-time bets which are made after the 'Come Out' roll (puck is ON). In a casino, the stick man is responsible for placing these bets.  In our game you are, but don't worry, because the computer will tell you if the bet can be made or not.  For the novice player these bets are bad moves and not recommended.
+
+HARDWAY BETS
+Hardway Bets are bets made after the 'Come Out' roll (puck is ON).  When you make a Hardway Bet the bet will remain until either you win by making the number the hard way, which means doubles, or you lose by making the number the easy way, meaning no doubles, or a seven is rolled. Hardway Bets have very high vigorish and are not recommended for the novice player.
+
+ONE ROLL BETS
+
+FIELD BETS
+Field Bets can be placed at any time, and will either win or lose on the next roll. If the roll is 2,3, 9, 10, 11 and 12 you have won. Any other number results in the loss of the bet.
+
+WIN
+Rolls     Possible Roll Combinations
+ 2        1-1
+ 3        1-2, 2-1
+ 4        1-3, 3-1, 2-2
+ 9        4-5, 5-4, 3-6, 6-3
+ 10       4-6, 6-4, 5-5 
+ 11       5-6, 6-5
+ 12       6-6
+Total 16 different rolls out of 36.
+Vigorish comes out to be around 5.6%
+
+LOSE
+Rolls     Possible Roll Combinations
+  2         1-1
+  3         1-2, 2-1
+  4         1-3, 3-1, 2-2
+  5         1-4, 4-1, 2-3, 3-2
+  6         1-5, 5-1, 2-4, 4-2, 3-3
+  7         1-6, 6-1, 2-5, 5-2, 3-4, 4-3
+  8         2-6, 6-2, 3-5, 5-3, 4-4
+  9         3-6, 6-3, 4-5, 5-4
+ 10         4-6, 6-4, 5-5
+ 11         5-6, 6-5
+ 12         6-6
+Total 20 different rolls out of 36. 
+
+ANY CRAPS BET
+This bet can be made by placing chips in the AnyCraps area located in the center of the table or the C for Craps.  The payoff is 7 - 1 and winning rolls consist of 2, 3 or 12. Losing rolls are any other number. 
+
+ANY SEVEN BET
+Same as AnyCraps, except you are betting that a seven will be rolled.
+
+HORN BET
+These are also one roll bets.  These bets are placed on the number that you think will be rolled, or on the Horn Bet block.  If you place a block bet on the horn you are dividing the bet into fours. This means you are betting on all of the combinations, and the payoff is proportionately smaller.
+
+ELEVEN OR CRAPS
+As the name implies, you are betting that the next roll will be an eleven or craps. There are three spaces here to bet for either occurrence or each specifically.
+
+

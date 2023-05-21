@@ -1,0 +1,66 @@
+5 CARD DRAW POKER
+
+HOW TO PLAY 5 CARD DRAW
+In 5-Card Draw, the objective is to create the best poker hand out of five cards dealt with one chance to improve your hand by replacing up to three cards.
+
+HOW TO PLAY 5 CARD STUD
+In 5-Card Stud, the objective is to create the best five card poker hand out of the cards dealt.
+
+HOW TO PLAY 7 CARD STUD
+In 7-Card Stud, the objective is to create the best five card poker hand out of seven cards dealt.
+
+HOW TO PLAY TEXAS HOLD'EM
+In Texas Hold 'em, all players are dealt two cards each, with five cards also being dealt to the house in the center of the table.  The object of the game is to make the best five-card hand using your cards combined with the house's five cards.
+
+HOW TO PLAY OMAHA
+In Omaha, all players are dealt four cards each, with five cards also being dealt to the house in the center of the table.  The object of the game is to make the best five-card hand using two of your cards combined with three of the house's five cards.  
+
+Note that a minimum of 2 players per table is required to play any of the poker games.  To meet this requirement offline play does not allow the turning off of AI players.
+
+PLAY OF THE GAME
+
+Ante in Draw Poker
+To be considered in the hand, each participant must "ante" by placing the minimum bet in the pot. Five cards are then dealt face down to each player. 
+
+Opening the Betting
+The option to bet begins with the player seated immediately to the Dealer's left.  This position rotates left around the table one seat with each hand, and is indicated by the player with a highlighted name plate.  In order to "open" the round of betting, a player may be required to have a minimum ranking hand. If the first player cannot meet the minimum requirement, he "passes", and the bet moves the person on his left who must also meet the minimum requirement to open. If no players can meet the minimum, the cards are taken up, and play begins again with "ante".  
+
+Betting in 5 Card Draw
+When there is a player who can meet the minimum, he may start by betting, or he can choose to "pass" which passes the decision of whether or how much to bet on to the person to his left.  If all players at the table "pass", the round of betting is over, and a new hand begins as before, with the ante bets from all previous rounds remaining in the pot until a hand is played and a winner is determined.
+If a player does bet, each player then has a choice of FOLDING (throwing in his hand and quitting), CALLING (meeting the required bet), or RAISING the bet even higher (after meeting the required bet). A player is not required to have the minimum ranking hand to "call"  or "raise" a bet. A raise can be for any amount between the minimum and the maximum.  The betting round is over when everyone has either folded or called.
+
+Betting in 5 Card Stud
+When a player chooses to "open" on his turn, he starts by betting.  If a player chooses to "pass" on his option to open bidding, the option passes to the next player clockwise.  If all players at the table "pass", the round of betting is over, and the next card is dealt.  If a player does bet, each player then has a choice of FOLDING (throwing in his hand and quitting), CALLING (meeting the opening bet), or RAISING the bet even higher (after meeting the opening bet and any subsequent raises). The betting round is over when everyone has either folded or called.
+
+Betting in 7 Card Stud
+When a player chooses to "open" on his turn, he starts by betting.  If all players at the table "pass", the round of betting is over, and the next card is dealt.  If a player does bet, each player then has a choice of FOLDING (throwing in his hand and quitting), CALLING (meeting the opening bet), or RAISING the bet even higher (after meeting the opening bet and any subsequent raises). The betting round is over when everyone has either folded or called.
+
+Betting in Texas Hold'em
+If a player does bet, each player then has a choice of FOLDING (throwing in his hand and quitting), CALLING (meeting the required bet), or RAISING the bet even higher (after meeting the required bet). The betting round is over when everyone has either folded or called.
+After the first round of betting, three of the house's cards are turned face-up, and another round of betting takes place.  After this round of betting, the house turns face up one more card, and another round of betting follows.  Then the final house card is revealed and one last round of betting ensues. 
+
+Betting in Omaha
+If a player does bet, each player then has a choice of FOLDING (throwing in his hand and quitting), CALLING (meeting the required bet), or RAISING the bet even higher (after meeting the required bet). The betting round is over when everyone has either folded or called.
+After the first round of betting, three of the house's cards are turned face-up, and another round of betting takes place.  After this round of betting, the house turns face up one more card, and another round of betting follows.  Then the final house card is revealed and one last round of betting ensues. 
+
+Drawing in Draw Poker
+The original round of betting will be followed by each player, in turn, choosing cards to discard and replace beginning with the person who opened the round of betting.  A player may choose as many cards to replace as he wishes, and will be dealt new cards from the top of the deck. 
+Once all players have received replacement cards, a new round of betting begins with the player who opened the previous round of betting. As before, he can choose to "pass" or "bet", and all players have the option to "call", "raise" or "fold".  
+
+WINNING
+After the betting round is over, the Showdown takes place.  Each player remaining in the game shows the cards that he or she has.  The winner is the player who has the highest ranking hand according to the following order:
+
+     Royal Flush - Ace, King, Queen, Jack, 10 of the same suit.
+     Straight Flush - 5 consecutive cards, all of the same suit.
+     Four of a Kind - 4 of the same card
+     Full House - 3 of a kind of one card and one pair of another.
+     Flush - All cards of the same suit.
+     Straight - 5 consecutive cards.
+     Three of a Kind - 3 of the same card.
+     Two Pair - A pair of one card, and a pair of another.
+     One Pair - 2 of the same card.
+     High Card - Highest ranking card.
+
+When comparing hands of identical rank, the hand with the highest ranking card is the winner.  If the hands are completely identical, a tie has occured.  
+The winner receives the entire pot for that hand.  If there is a tie, the pot is evenly divided among the winners.
+

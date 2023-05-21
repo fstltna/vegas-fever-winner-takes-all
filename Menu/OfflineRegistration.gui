@@ -1,0 +1,150 @@
+////////////////////////////////////////////////////////////////////////////////
+//																			  //
+//	OfflineRegistration.gui
+//																			  //
+////////////////////////////////////////////////////////////////////////////////
+
+#include <OfflineRegistrationDefs.h>
+#include "../Sounds/Wavs.h"
+
+Version = 1
+
+Dialog
+{
+	ResourceFile			=	EOfflineRegistrationResourceMain, "ISCIntro.gra", "Menu"
+	ResourceFile			=	EOfflineRegistrationResourceFontArial10, "ISCArial10.rgf", "Fonts"
+	ResourceFile			=	EOfflineRegistrationResourceFontArial12, "ISCArial12.rgf", "Fonts"
+	ResourceFile			=	EOfflineRegistrationResourceFontArial14, "ISCArial14.rgf", "Fonts"
+	ResourceFile			=	EOfflineRegistrationResourceFontArial18, "ISCArial18.rgf", "Fonts"
+ 								
+	ID						=	EOfflineRegistration
+	Style					=	MoveableOnTitleBar
+	EnabledAnim				=	EOfflineRegistrationResourceMain, 150
+
+	Defaults
+	{
+		ResourceFile		=	EOfflineRegistrationResourceMain
+		TextFont			=	EOfflineRegistrationResourceFontArial12, 0
+		TextColor			=	White
+		SelectedTextColor		=	White
+		HighlightTextColor	=	White
+		TextJustify			=	Center
+		ClickedSound			= BUTTON_WAV
+	}
+
+//
+//Title Text
+//
+	TitleBar
+	{
+		ID					=	EOfflineRegistrationTitleBar
+		EnabledAnim			=	Default,165
+		TextString			=	CORE_IDS_INTRO_OFFLINEREGISTRATIONTITLE
+	}
+
+//
+//User ID Text
+//
+	GraphicArea
+	{
+		ID					=	EOfflineRegistrationUserIDHeader
+		EnabledAnim			=	Default,159
+		TextString			=	CORE_IDS_INTRO_OFFLINEREGISTRATIONUSERID
+		TextFont			=	EOfflineRegistrationResourceFontArial12, 0
+	}
+
+//
+//UserID Edit
+//
+	EditBox
+	{
+		ID					=	EOfflineRegistrationUserIDEditBox
+		EnabledAnim			=	Default,160
+		TextFont			=	EOfflineRegistrationResourceFontArial18, 0
+		TextJustify			=	Left
+		MaxChars			=	10
+	}
+		
+//
+//Password Text
+//
+	GraphicArea
+	{
+		ID					=	EOfflineRegistrationPasswordHeader
+		EnabledAnim			=	Default,161
+		TextString			=	CORE_IDS_INTRO_OFFLINEREGISTRATIONPASSWORD
+		TextFont			=	EOfflineRegistrationResourceFontArial12, 0
+	}
+
+//
+//Password Edit
+//
+	EditBox
+	{
+		ID					=	EOfflineRegistrationPasswordEditBox
+		Style				=	Password
+		EnabledAnim			=	Default,162
+		TextFont			=	EOfflineRegistrationResourceFontArial18, 0
+		TextJustify			=	Left
+		MaxChars			=	12
+	}
+		
+//
+//Verify Text
+//
+	GraphicArea
+	{
+		ID					=	EOfflineRegistrationVerifyHeader
+		EnabledAnim			=	Default,163
+		TextString			=	CORE_IDS_INTRO_OFFLINEREGISTRATIONVERIFY
+		TextFont			=	EOfflineRegistrationResourceFontArial12, 0
+	}
+
+//
+//Verify Edit
+//
+	EditBox
+	{
+		ID					=	EOfflineRegistrationVerifyEditBox
+		Style				=	Password
+		EnabledAnim			=	Default,164
+		TextFont			=	EOfflineRegistrationResourceFontArial18, 0
+		TextJustify			=	Left
+		MaxChars			=	12
+	}
+		
+//
+//Submit
+//
+	Button
+	{
+		ID					=	EOfflineRegistrationSubmitButton
+		Style				=	Default
+		UpAnim				=	Default, 155
+		DownAnim			=	Default, 156
+		DisabledAnim		=	Default, 157
+		HighlightAnim		=	Default, 158
+		TextString			=	CORE_IDS_INTRO_OFFLINEREGISTRATIONSUBMIT
+		TextColor				=	Black
+		DisabledTextColor			=	Black
+		HighlightTextColor		=	Red
+	}
+
+//
+//Exit
+//
+	Button
+	{
+		ID					=	EOfflineRegistrationExitButton
+		UpAnim				=	Default, 151
+		DownAnim			=	Default, 152
+		DisabledAnim		=	Default, 153
+		HighlightAnim		=	Default, 154
+		TextString			=	CORE_IDS_INTRO_OFFLINEREGISTRATIONEXIT
+		HotKeys				=	Escape
+		TextColor			=	Black
+		DisabledTextColor	=	Black
+		HighlightTextColor	=	Red
+	}
+}
+

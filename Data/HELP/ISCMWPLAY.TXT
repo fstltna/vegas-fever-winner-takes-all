@@ -1,0 +1,19 @@
+MONEY WHEEL
+
+HOW TO PLAY MONEY WHEEL
+Money wheel is a fast, fun game; the simplest of casino games to play.  Just make your bet before the wheel is spun.  The number the wheel stops at is the Winning Number.  You may bet on as many numbers as you wish.
+
+HOW TO PLACE A BET
+To place a bet, click on the chip icon(s) representing the amount you want to bet.  As you click on chips, the number to the right of the instruction line will increase, showing you the amount you currently hold in your 'hand'.  To place the wager on the table, move your cursor over the area where you wish to bet.  Hypertext will appear to the right of your cursor showing you how much you currently have bet at this location, and what the payoff is for this bet.  To place your bet, left-mouse click on your chosen betting area.  To remove money from your 'hand', click on 'Clear'.  To remove all your bets from the table, click on 'Clear' again.
+
+PAYOFFS
+Bet Position                Payout Odds
+$1 insignia                   1 to 1
+$2 insignia                   2 to 1
+$5 insignia                   5 to 1
+$10 insignia                 10 to 1
+$20 insignia                 20 to 1
+Left Joker insignia          45 to 1
+Right Joker insignia         45 to 1
+
+

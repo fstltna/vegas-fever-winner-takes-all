@@ -1,0 +1,465 @@
+////////////////////////////////////////////////////////////////////////////////
+//																			  //
+//	OnlineRegistration.gui
+//																			  //
+////////////////////////////////////////////////////////////////////////////////
+
+#include <OnlineRegistrationDefs.h>
+#include "../Sounds/Wavs.h"
+
+Version = 1
+
+Dialog
+{
+	ResourceFile				=	EOnlineRegistrationResourceMain, "ISCIntro.gra", "Menu"
+	ResourceFile				=	EOnlineRegistrationResourceFontArial8, "ISCArial08.rgf", "Fonts"
+	ResourceFile				=	EOnlineRegistrationResourceFontArial10, "ISCArial10.rgf", "Fonts"
+	ResourceFile				=	EOnlineRegistrationResourceFontArial12, "ISCArial12.rgf", "Fonts"
+	ResourceFile				=	EOnlineRegistrationResourceFontArial18, "ISCArial18.rgf", "Fonts"
+ 								
+	ID							=	EOnlineRegistration
+	Style						=	MoveableOnTitleBar
+	EnabledAnim					=	EOnlineRegistrationResourceMain, 350
+
+	Defaults
+	{
+		ResourceFile			=	EOnlineRegistrationResourceMain
+		TextFont				=	EOnlineRegistrationResourceFontArial10, 0
+		TextColor				=	White
+		SelectedTextColor		=	White
+		HighlightTextColor		=	White
+		RadioOffAnim			=	Default,392
+		RadioOnAnim				=	Default,393
+		RadioOnDisabledAnim		=	Default,393
+		RadioOffDisabledAnim	=	Default,392
+		TextJustify				=	Center
+		ClickedSound			= BUTTON_WAV
+	}
+
+
+//============================================================
+
+//
+//Title Text
+//
+	TitleBar
+	{
+		ID						=	EOnlineRegistrationTitleBar
+		EnabledAnim				=	Default,391
+		TextString				=	CORE_IDS_INTRO_ONLINEREGISTRATIONTITLE
+		TextFont				=	EOnlineRegistrationResourceFontArial12, 0
+		TextColor				=	White
+		DisabledTextColor			=	White
+		HighlightTextColor		=	White
+	}
+
+//============================================================
+
+//
+//MrMrsMs
+//
+	Group
+	{
+		ID						=	EOnlineRegistrationMrMrsMsGroup
+
+		RadioButton
+		{
+			ID					=	EOnlineRegistrationMrRB
+			RadioPos			=	Default,359
+			EnabledAnim			=	Default,359
+			TextArea			=	Default,362
+			TextString			=	CORE_IDS_INTRO_ONLINEREGISTRATIONMR
+			TextJustify			=	Left
+		}
+
+		RadioButton
+		{
+			ID					=	EOnlineRegistrationMrsRB
+			RadioPos			=	Default,360
+			EnabledAnim			=	Default,360
+			TextArea			=	Default,363
+			TextString			=	CORE_IDS_INTRO_ONLINEREGISTRATIONMRS
+			TextJustify			=	Left
+		}
+
+		RadioButton
+		{
+			ID					=	EOnlineRegistrationMsRB
+			RadioPos			=	Default,361
+			EnabledAnim			=	Default,361
+			TextArea			=	Default,364
+			TextString			=	CORE_IDS_INTRO_ONLINEREGISTRATIONMS
+			TextJustify			=	Left
+		}
+	}
+
+
+//============================================================
+
+//
+//FirstName Text
+//
+	GraphicArea
+	{
+		ID				=	EOnlineRegistrationFirstNameHeader
+		EnabledAnim		=	Default,365
+		TextString		=	CORE_IDS_INTRO_ONLINEREGISTRATIONFIRSTNAME
+		TextFont		=	EOnlineRegistrationResourceFontArial10, 0
+		TextColor			= Red
+		HighlightTextColor	= Red
+	}
+
+//
+//FirstName Edit
+//
+	EditBox
+	{
+		ID				=	EOnlineRegistrationFirstNameEditBox
+		EnabledAnim		=	Default,366
+		TextFont		=	EOnlineRegistrationResourceFontArial12, 0
+		TextJustify		=	Left
+		MaxChars		=	24
+	}
+
+//
+//MiddleInitial Text
+//
+	GraphicArea
+	{
+		ID				=	EOnlineRegistrationMiddleInitialHeader
+		EnabledAnim		=	Default,367
+		TextString		=	CORE_IDS_INTRO_ONLINEREGISTRATIONMIDDLEINITIAL
+		TextFont		=	EOnlineRegistrationResourceFontArial10, 0
+	}
+
+//
+//MiddleInitial Edit
+//
+	EditBox
+	{
+		ID				=	EOnlineRegistrationMiddleInitialEditBox
+		EnabledAnim		=	Default,368
+		TextFont		=	EOnlineRegistrationResourceFontArial12, 0
+		TextJustify		=	Left
+		MaxChars		=	1
+	}
+
+//
+//LastName Text
+//
+	GraphicArea
+	{
+		ID				=	EOnlineRegistrationLastNameHeader
+		EnabledAnim		=	Default,369
+		TextString		=	CORE_IDS_INTRO_ONLINEREGISTRATIONLASTNAME
+		TextFont		=	EOnlineRegistrationResourceFontArial10, 0
+		TextColor			= Red
+		HighlightTextColor	= Red
+	}
+
+//
+//LastName Edit
+//
+	EditBox
+	{
+		ID				=	EOnlineRegistrationLastNameEditBox
+		EnabledAnim		=	Default,370
+		TextFont		=	EOnlineRegistrationResourceFontArial12, 0
+		TextJustify		=	Left
+		MaxChars		=	24
+	}
+
+
+//============================================================
+
+//
+//AddressLine1 Text
+//
+	GraphicArea
+	{
+		ID				=	EOnlineRegistrationAddressLine1Header
+		EnabledAnim		=	Default,371
+		TextString		=	CORE_IDS_INTRO_ONLINEREGISTRATIONADDRESSLINE1
+		TextFont		=	EOnlineRegistrationResourceFontArial10, 0
+	}
+
+//
+//AddressLine1 Edit
+//
+	EditBox
+	{
+		ID				=	EOnlineRegistrationAddressLine1EditBox
+		EnabledAnim		=	Default,372
+		TextFont		=	EOnlineRegistrationResourceFontArial12, 0
+		TextJustify		=	Left
+		MaxChars		=	64
+	}
+		
+//
+//AddressLine2 Text
+//
+	GraphicArea
+	{
+		ID				=	EOnlineRegistrationAddressLine2Header
+		EnabledAnim		=	Default,373
+		TextString		=	CORE_IDS_INTRO_ONLINEREGISTRATIONADDRESSLINE2
+		TextFont		=	EOnlineRegistrationResourceFontArial10, 0
+	}
+
+//
+//AddressLine2 Edit
+//
+	EditBox
+	{
+		ID				=	EOnlineRegistrationAddressLine2EditBox
+		EnabledAnim		=	Default,374
+		TextFont		=	EOnlineRegistrationResourceFontArial12, 0
+		TextJustify		=	Left
+		MaxChars		=	24
+	}
+		
+//
+//City Text
+//
+	GraphicArea
+	{
+		ID				=	EOnlineRegistrationCityHeader
+		EnabledAnim		=	Default,375
+		TextString		=	CORE_IDS_INTRO_ONLINEREGISTRATIONCITY
+		TextFont		=	EOnlineRegistrationResourceFontArial10, 0
+	}
+
+//
+//City Edit
+//
+	EditBox
+	{
+		ID				=	EOnlineRegistrationCityEditBox
+		EnabledAnim		=	Default,376
+		TextFont		=	EOnlineRegistrationResourceFontArial12, 0
+		TextJustify		=	Left
+		MaxChars		=	24
+	}
+		
+//
+//State Text
+//
+	GraphicArea
+	{
+		ID				=	EOnlineRegistrationStateHeader
+		EnabledAnim		=	Default,377
+		TextString		=	CORE_IDS_INTRO_ONLINEREGISTRATIONSTATE
+		TextFont		=	EOnlineRegistrationResourceFontArial10, 0
+	}
+
+//
+//State Edit
+//
+	EditBox
+	{
+		ID				=	EOnlineRegistrationStateEditBox
+		EnabledAnim		=	Default,378
+		TextFont		=	EOnlineRegistrationResourceFontArial12, 0
+		TextJustify		=	Left
+		MaxChars		=	2
+	}
+		
+//
+//Zip Text
+//
+	GraphicArea
+	{
+		ID				=	EOnlineRegistrationZipHeader
+		EnabledAnim		=	Default,379
+		TextString		=	CORE_IDS_INTRO_ONLINEREGISTRATIONZIP
+		TextFont		=	EOnlineRegistrationResourceFontArial10, 0
+	}
+
+//
+//Zip Edit
+//
+	EditBox
+	{
+		ID				=	EOnlineRegistrationZipEditBox
+		EnabledAnim		=	Default,380
+		TextFont		=	EOnlineRegistrationResourceFontArial12, 0
+		TextJustify		=	Left
+		MaxChars		=	5
+	}
+		
+//============================================================
+
+//
+//Email Text
+//
+	GraphicArea
+	{
+		ID				=	EOnlineRegistrationEmailHeader
+		EnabledAnim		=	Default,381
+		TextString		=	CORE_IDS_INTRO_ONLINEREGISTRATIONEMAIL
+		TextFont		=	EOnlineRegistrationResourceFontArial10, 0
+		TextColor			= Red
+		HighlightTextColor	= Red
+	}
+
+//
+//Email Edit
+//
+	EditBox
+	{
+		ID				=	EOnlineRegistrationEmailEditBox
+		EnabledAnim		=	Default,382
+		TextFont		=	EOnlineRegistrationResourceFontArial12, 0
+		TextJustify		=	Left
+		MaxChars		=	32
+	}
+		
+//
+//DateOfBirth Text
+//
+	GraphicArea
+	{
+		ID				=	EOnlineRegistrationDateOfBirthHeader
+		EnabledAnim		=	Default,383
+		TextString		=	CORE_IDS_INTRO_ONLINEREGISTRATIONDATEOFBIRTH
+		TextFont		=	EOnlineRegistrationResourceFontArial10, 0
+	}
+
+//
+//DateOfBirth Edit
+//
+	EditBox
+	{
+		ID				=	EOnlineRegistrationDateOfBirthEditBox
+		EnabledAnim		=	Default,384
+		TextFont		=	EOnlineRegistrationResourceFontArial12, 0
+		TextJustify		=	Left
+		MaxChars		=	10
+	}
+		
+//============================================================
+
+//
+//UserID Text
+//
+	GraphicArea
+	{
+		ID				=	EOnlineRegistrationUserIDHeader
+		EnabledAnim		=	Default,385
+		TextString		=	CORE_IDS_INTRO_ONLINEREGISTRATIONUSERID
+		TextFont		=	EOnlineRegistrationResourceFontArial10, 0
+		TextJustify		=	Left
+		TextMargins		=	{ 8, 12, 0, 0 }
+		TextColor			= Red
+		HighlightTextColor	= Red
+	}
+
+//
+//UserID Edit
+//
+	EditBox
+	{
+		ID				=	EOnlineRegistrationUserIDEditBox
+		EnabledAnim		=	Default,386
+		TextFont		=	EOnlineRegistrationResourceFontArial12, 0
+		TextJustify		=	Left
+		MaxChars		=	10
+	}
+		
+//
+//Password Text
+//
+	GraphicArea
+	{
+		ID				=	EOnlineRegistrationPasswordHeader
+		EnabledAnim		=	Default,387
+		TextString		=	CORE_IDS_INTRO_ONLINEREGISTRATIONPASSWORD
+		TextFont		=	EOnlineRegistrationResourceFontArial10, 0
+		TextJustify		=	Left
+		TextMargins		=	{ 8, 12, 0, 0 }
+		TextColor			= Red
+		HighlightTextColor	= Red
+	}
+
+//
+//Password Edit
+//
+	EditBox
+	{
+		ID				=	EOnlineRegistrationPasswordEditBox
+		Style			=	Password
+		EnabledAnim		=	Default,388
+		TextFont		=	EOnlineRegistrationResourceFontArial12, 0
+		TextJustify		=	Left
+		MaxChars		=	12
+	}
+		
+//
+//Verify Text
+//
+	GraphicArea
+	{
+		ID				=	EOnlineRegistrationVerifyHeader
+		EnabledAnim		=	Default,389
+		TextString		=	CORE_IDS_INTRO_ONLINEREGISTRATIONVERIFY
+		TextFont		=	EOnlineRegistrationResourceFontArial10, 0
+		TextJustify		=	Left
+		TextMargins		=	{ 8, 12, 0, 0 }
+		TextColor			= Red
+		HighlightTextColor	= Red
+	}
+
+//
+//Verify Edit
+//
+	EditBox
+	{
+		ID				=	EOnlineRegistrationVerifyEditBox
+		Style			=	Password
+		EnabledAnim		=	Default,390
+		TextFont		=	EOnlineRegistrationResourceFontArial12, 0
+		TextJustify		=	Left
+		MaxChars		=	12
+	}
+		
+
+//============================================================
+
+//
+//Submit
+//
+	Button
+	{
+		ID					=	EOnlineRegistrationSubmitButton
+		Style				=	Default
+		UpAnim				=	Default, 355
+		DownAnim			=	Default, 356
+		DisabledAnim		=	Default, 357
+		HighlightAnim		=	Default, 358
+		TextString			=	CORE_IDS_INTRO_ONLINEREGISTRATIONSUBMIT
+		TextColor			=	Black
+		DisabledTextColor	=	Black
+		HighlightTextColor	=	Red
+	}
+
+//
+//Exit
+//
+	Button
+	{
+		ID					=	EOnlineRegistrationExitButton
+		UpAnim				=	Default, 351
+		DownAnim			=	Default, 352
+		DisabledAnim		=	Default, 353
+		HighlightAnim		=	Default, 354
+		TextString			=	CORE_IDS_INTRO_ONLINEREGISTRATIONEXIT
+		TextColor			=	Black
+		DisabledTextColor	=	Black
+		HighlightTextColor	=	Red
+		HotKeys				=	Escape
+	}
+
+//============================================================
+
+}
+

@@ -1,0 +1,36 @@
+ROULETTE
+
+OBJECT
+The object of Roulette is to predict where, on a spinning wheel, a ball will land.
+
+HOW TO PLACE A BET
+To place a bet, click on the chip icon(s) representing the amount you want to bet.  As you click on chips, the number to the right of the instruction line will increase, showing you the amount you currently hold in your 'hand'.  To place the wager on the table, move your cursor over the area where you wish to bet.  If that area is a valid choice at the current time, hypertext will appear to the right of your cursor showing you how much you currently have bet at this location, and what the payoff is for this bet.  To place your bet, left-mouse click on your chosen betting area.  To remove money from your 'hand', click on 'Clear'.  To remove all your bets from the table, click on 'Clear' again.
+
+Each player has his own color of chips, which will designate his bet on the table.  The color of your chips on the table will correspond with the color of chips in your betting area.
+
+WHAT TO BET ON
+There are two basic categories of wagers, "Straight Up" and "Combination" bets.
+
+Straight Up is a single-number bet on any number. This bet pays 35-1 odds, and is the longest-shot in the game.
+
+A Combination bet allows you to bet on more than one number with a single wager. For any combination bet you wish to place, moving the cursor over the betting area will show you how many numbers you are betting on, and what the payoff for the bet will be.
+
+Split is any two adjoining numbers.  To place this bet, simply place your chip on the line between two numbers.  For example, you can bet on 17 and 20, which are juxtaposed on the wheel.  If the ball lands on either number, you will win 17-1.
+
+Street is a three number bet.  Also known as a 'trio', this bet is made by placing your chip on a horizontal row of numbers.  For example, if you want to place your bet on 7-8-9, place your bet on the outside edge of the 7, or the outside edge of the 9.  This covers all three numbers and pays off at 11-1 odds.
+
+Five-number bet is limited to one bet which covers 1-2-3-0-00.  To place this bet, place your chip on the line above the number 2.  This bet pays off at 6-1 odds.
+
+Line bet is a wager on six consecutive numbers, such as 13-14-15-16-17-18.  Make this bet by placing your chip on the outside line separating two rows.  If any of your six numbers comes up, you will be paid at 5-1 odds.
+
+Dozen is a bet on the first, second, or third dozen numbers.  To make this bet, place a chip on the area marked with '1st 12', '2nd 12', or '3rd 12'.  A winning dozen bet pays 2-1 odds.
+
+Corner bet will give you four adjoining numbers.  This bet is placed at the intersecting lines between four numbers, and will pay 8-1.
+Column includes all 12 numbers in a single column.  This bet is at the far right of the table, and will pay 2-1.
+
+High/Low is a simple wager, betting whether the number that comes up will be in the low 18 numbers, or the high 18.  This wager pays 1-1.
+
+Odd/Even is betting on all the odd numbers or all the even numbers.  The 0 and 00 are excluded from these categories.  A win on this bet will pay even money.
+
+Red/Black is another simple bet, where you are betting that the next number will be either red or black.  The green numbers (0 and 00) are again excluded from this bet which pays 1-1.
+

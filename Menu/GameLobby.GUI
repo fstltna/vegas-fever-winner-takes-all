@@ -1,0 +1,238 @@
+//*************************************************************************************************
+//
+// GameLobby.GUI
+//
+// ISC Casino
+// Chat GameLobby Dialog
+//
+//-------------------------------------------------------------------------------------------------
+//
+// by Amilcar M. Ubiera.
+//
+//*************************************************************************************************
+
+#include <GameLobbyDefs.h>
+#include "../Sounds/Wavs.h"
+
+Version = 1
+
+Dialog
+{
+	ResourceFile				= GAME_LOBBY_GRA, "GameLobby.gra", "Menu"
+	ResourceFile				= GAME_LOBBY_FONT_ARIAL8, "ISCArial08.rgf", "Fonts"
+	ResourceFile				= GAME_LOBBY_FONT_ARIAL10, "ISCArial10.rgf", "Fonts"
+	ResourceFile				= GAME_LOBBY_FONT_ARIAL12, "ISCArial12.rgf", "Fonts"
+	ResourceFile				= GAME_LOBBY_FONT_ARIAL14, "ISCArial14.rgf", "Fonts"
+	ResourceFile				= GAME_LOBBY_FONT_ARIAL18, "ISCArial18.rgf", "Fonts"
+
+	ID							= GAME_LOBBY_DIALOG
+	EnabledAnim					= Default, 0
+
+	Defaults
+	{
+		ResourceFile			= GAME_LOBBY_GRA
+		TextFont				= GAME_LOBBY_FONT_ARIAL8, 0
+		TextColor				= White
+		SelectedTextColor		= White
+		HighlightTextColor		= White
+		TextJustify				= Left
+		TextMargins				= { 4, 0, 4, 0 }
+		ClickedSound			= BUTTON_WAV
+	}
+
+	TitleBar
+	{
+		EnabledAnim				= Default, 129
+		TextJustify				= Center
+		TextFont				= GAME_LOBBY_FONT_ARIAL14, 0
+	}
+
+	EditBox
+	{
+		ID						= GAME_LOBBY_CHAT_EDIT_BOX
+		EnabledAnim				= Default, 13
+		TextJustify				= Left
+//		MaxChars				= 56
+	}
+
+	Button
+	{
+		ID						= GAME_LOBBY_EXIT_BUTTON
+		UpAnim					= Default, 81
+		DownAnim				= Default, 82
+		DisabledAnim			= Default, 83
+		HighlightAnim			= Default, 84
+	}
+
+	Button
+	{
+		ID						= GAME_LOBBY_SEND_BUTTON
+		UpAnim					= Default, 10
+		DownAnim				= Default, 11
+		DisabledAnim			= Default, 12
+	}
+
+	Button
+	{
+		ID						= GAME_LOBBY_CLEAR_BUTTON
+		UpAnim					= Default, 7
+		DownAnim				= Default, 8
+		DisabledAnim			= Default, 9
+	}
+
+	ListBox
+	{
+		ID						= GAME_LOBBY_CHAT_LIST_BOX
+		Style					= VScroll
+		EnabledAnim				= Default, 38
+
+		VScroll
+		{
+			MinButton
+			{
+				UpAnim			= Default, 18
+				DownAnim		= Default, 19
+				DisabledAnim	= Default, 20
+			}
+
+			MaxButton
+			{
+				UpAnim			= Default, 21
+				DownAnim		= Default, 22
+				DisabledAnim	= Default, 23
+			}
+
+			ThumbButton
+			{
+				UpAnim			= Default, 25
+			}
+
+			TrackArea
+			{
+				EnabledAnim		= Default, 24
+			}
+		}
+
+		ItemControl : GraphicArea { TextArea = Default, 14 }
+		ItemControl : GraphicArea { TextArea = Default, 15 }
+		ItemControl : GraphicArea { TextArea = Default, 16 }
+		ItemControl : GraphicArea { TextArea = Default, 17 }
+	}
+
+	ListBox
+	{
+		ID						= GAME_LOBBY_CHAT_PLAYER_LIST_BOX
+		Style					= VScroll, Sorted
+		EnabledAnim				= Default, 39
+
+		VScroll
+		{
+			MinButton
+			{
+				UpAnim			= Default, 30
+				DownAnim		= Default, 31
+				DisabledAnim	= Default, 32
+			}
+
+			MaxButton
+			{
+				UpAnim			= Default, 33
+				DownAnim		= Default, 34
+				DisabledAnim	= Default, 35
+			}
+
+			ThumbButton
+			{
+				UpAnim			= Default, 37
+			}
+
+			TrackArea
+			{
+				EnabledAnim		= Default, 36
+			}
+		}
+
+		ItemControl : GraphicArea { TextArea = Default, 26 }
+		ItemControl : GraphicArea { TextArea = Default, 27 }
+		ItemControl : GraphicArea { TextArea = Default, 28 }
+		ItemControl : GraphicArea { TextArea = Default, 29 }
+	}
+
+	ListBox
+	{
+		ID						= GAME_LOBBY_TABLE_INFO_LIST_BOX
+		EnabledAnim				= Default, 119
+		Style					= NoSelect
+
+		Defaults
+		{
+			TextFont			= GAME_LOBBY_FONT_ARIAL10, 0
+			TextJustify			= Left
+		}
+
+		ItemControl : GraphicArea { TextArea = Default, 85 }
+		ItemControl : GraphicArea { TextArea = Default, 86 }
+		ItemControl : GraphicArea { TextArea = Default, 87 }
+		ItemControl : GraphicArea { TextArea = Default, 88 }
+		ItemControl : GraphicArea { TextArea = Default, 89 }
+		ItemControl : GraphicArea { TextArea = Default, 90 }
+		ItemControl : GraphicArea { TextArea = Default, 91 }
+		ItemControl : GraphicArea { TextArea = Default, 92 }
+		ItemControl : GraphicArea { TextArea = Default, 93 }
+		ItemControl : GraphicArea { TextArea = Default, 94 }
+		ItemControl : GraphicArea { TextArea = Default, 95 }
+		ItemControl : GraphicArea { TextArea = Default, 96 }
+		ItemControl : GraphicArea { TextArea = Default, 97 }
+		ItemControl : GraphicArea { TextArea = Default, 98 }
+		ItemControl : GraphicArea { TextArea = Default, 99 }
+		ItemControl : GraphicArea { TextArea = Default, 100 }
+		ItemControl : GraphicArea { TextArea = Default, 101 }
+		ItemControl : GraphicArea { TextArea = Default, 102 }
+		ItemControl : GraphicArea { TextArea = Default, 103 }
+		ItemControl : GraphicArea { TextArea = Default, 104 }
+		ItemControl : GraphicArea { TextArea = Default, 105 }
+		ItemControl : GraphicArea { TextArea = Default, 106 }
+		ItemControl : GraphicArea { TextArea = Default, 107 }
+		ItemControl : GraphicArea { TextArea = Default, 108 }
+	}
+
+	//
+	// Table Locations
+	//
+	ListBox
+	{
+		ID						= GAME_LOBBY_TABLE_LIST
+		Style					= VScroll, NoSelect
+
+		VScroll
+		{
+			StepDelay			= 1000
+			Step 				= 6
+
+			MinButton
+			{
+				UpAnim			= Default, 120
+				DownAnim		= Default, 121
+				DisabledAnim	= Default, 122
+				HighlightAnim	= Default, 123
+			}
+
+			MaxButton
+			{
+				UpAnim			= Default, 124
+				DownAnim		= Default, 125
+				DisabledAnim	= Default, 126
+				HighlightAnim	= Default, 127
+			}
+		}
+
+		Defaults { TextJustify = Center Style = DrawTextArea }
+		ItemControl : GraphicArea { EnabledAnim = Default, 130 TextArea = Default, 136 }
+		ItemControl : GraphicArea { EnabledAnim = Default, 133 TextArea = Default, 139 }
+		ItemControl : GraphicArea { EnabledAnim = Default, 131 TextArea = Default, 137 }
+		ItemControl : GraphicArea { EnabledAnim = Default, 134 TextArea = Default, 140 }
+		ItemControl : GraphicArea { EnabledAnim = Default, 132 TextArea = Default, 138 }
+		ItemControl : GraphicArea { EnabledAnim = Default, 135 TextArea = Default, 141 }
+	}
+}
+

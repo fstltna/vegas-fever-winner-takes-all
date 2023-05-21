@@ -1,0 +1,72 @@
+//*************************************************************************************************
+//
+// FloorEnglish.rgl
+//
+// Localization File
+//
+//-------------------------------------------------------------------------------------------------
+//
+// Language Identifiers:
+//
+// Afrikaans   54     Czech        5     Greek        8     Lithuanian  39     Spanish     10
+// Albanian    28     Danish       6     Hebrew      13     Macedonian  47     Swedish     29
+// Arabic       1     Dutch       19     Hungarian   14     Norwegian   20     Thai        30
+// Basque      45     English      9     Icelandic   15     Polish      21     Turkish     31
+// Belarusian  35     Estonian    37     Indonesian  33     Portuguese  22     Ukrainian   34
+// Bulgarian    2     Farsi       41     Italian     16     Romanian    24
+// Catalan      3     Finnish     11     Japanese    17     Russian     25
+// Chinese      4     French      12     Korean      18     Slovak      27
+// Croatian    26     German       7     Latvian     38     Slovenian   36
+//
+//*************************************************************************************************
+
+//
+// Locale Identifier for this Language File
+//
+LANGUAGE 9
+
+//
+// Localized Strings
+//
+  0 CORE_IDS_FLOOR_0   "Click on desired Game"
+  1 CORE_IDS_FLOOR_1   "Blackjack"
+  2 CORE_IDS_FLOOR_2   "American Roulette"
+  3 CORE_IDS_FLOOR_3   "Craps"
+  4 CORE_IDS_FLOOR_4   "European Roulette"
+  5 CORE_IDS_FLOOR_5   "Baccarat"
+  6 CORE_IDS_FLOOR_6   "Mini-Baccarat"
+  7 CORE_IDS_FLOOR_7   "Let It Ride"
+  8 CORE_IDS_FLOOR_8   "Sic Bo"
+  9 CORE_IDS_FLOOR_9   "Money Wheel"
+ 10 CORE_IDS_FLOOR_10  " "
+ 11 CORE_IDS_FLOOR_11  "Red Dog"
+ 12 CORE_IDS_FLOOR_12  "PaiGow Poker"
+ 13 CORE_IDS_FLOOR_13  "Poker"
+ 14 CORE_IDS_FLOOR_14  "Video Poker"
+ 15 CORE_IDS_FLOOR_15  "Slots"
+ 16 CORE_IDS_FLOOR_16  "Video Slots"
+ 17 CORE_IDS_FLOOR_17  "Sports Book"
+ 18 CORE_IDS_FLOOR_18  "Cashier"
+ 19 CORE_IDS_FLOOR_19  "Chip - Chat Lounge"
+ 20 CORE_IDS_FLOOR_20  "Exit"
+ 21 CORE_IDS_FLOOR_CONNECTING_TO_SERVER  "Connecting to server..."
+ 22 CORE_IDS_FLOOR_OK  "OK"
+ 23 CORE_IDS_FLOOR_CANCEL  "Cancel"
+ 24 CORE_IDS_FLOOR_ISC_CASINO  "Vegas Fever"
+ 25 CORE_IDS_FLOOR_ARE_YOU_SURE_QUIT  "Are you sure you want to exit?"
+ 26 CORE_IDS_FLOOR_YES "Yes"
+ 27 CORE_IDS_FLOOR_NO  "No"
+ 28 CORE_IDS_CASHIER_OFFLINE_BANK_ACCOUNT		"Offline Bank Account"
+ 29 CORE_IDS_CASHIER_BANK_ACCOUNT				"Bank Account"
+ 30 CORE_IDS_CASHIER_TOTAL_AMOUNT_OF_YOUR_LOAN	"Total Amount of your Loan"
+ 31 CORE_IDS_CASHIER_TAKE_OUT_A_LOAN			"Take out a loan"
+ 32 CORE_IDS_CASHIER_PAY_OFF_YOUR_LOAN			"Pay off your loan"
+ 33 CORE_IDS_CASHIER_OK							"OK"
+ 34 CORE_IDS_CASHIER_EXTENDED_LINE_OF_CREDIT	"Extended Line of Credit from the Casino"
+ 35 CORE_IDS_CASHIER_EXTEND_LINE_OF_CREDIT		"Extend Line of Credit"
+ 36 CORE_IDS_CASHIER_CASH_OUT					"Cash Out"
+ 37 CORE_IDS_FLOOR_FAILED_TO_LAUNCH_SPORTS_BOOK "Failed to launch the sports book"
+ 38 CORE_IDS_FLOOR_VIDEO_KENO  "Video Keno"
+ 39 CORE_IDS_CASHIER_DEBT_ROLLOVER "The house takes pity on your gambling skills. Your debt has been absolved."
+ 40 CORE_IDS_CASHIER_ONLINE_BANK_ACCOUNT		"Online Bank Account"
+ 41 CORE_IDS_SPORTS_BOOK_AVAILABLE_ONLINE		"Sports Book Available Online"

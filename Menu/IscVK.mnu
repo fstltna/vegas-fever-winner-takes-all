@@ -1,0 +1,1823 @@
+ISCVK.Gra
+ISCCommon.Gra
+BACKGROUND COLOR 0..255..-1 trans : 0xff000000
+HYPERTEXT COLOR 0..255            : 0xffffffff
+FONT TYPE 0..5                    : 3
+ISCArial06
+ISCArial07
+ISCArial08
+ISCArial09
+ISCArial10
+ISCArial11
+ISCArial12
+ISCArial14
+ISCArial18
+ISCArial24
+#rem......Needed filenames
+]P:ISCVKBackground.gra
+]T:VKLoc
+]S:ISCVK.ds
+]R:ISCVKPlay.txt
+]I:ISCVK.INI
+#rem..........Background
+MENUID     : 1
+MENUTYPE   : 0
+MOVEABLE   : 0
+ACTIVE     : 0
+SPRITEID   : -1
+ACCELERATOR: 0
+DRAW TYPE  : 0
+SHARE      : 0
+X-CORD     : -1
+Y-CORD     : -1
+DESC       :
+*
+#rem..........Video Keno Machine
+MENUID     : 2
+MENUTYPE   : 1
+MOVEABLE   : 0
+ACTIVE     : 1
+SPRITEID   : -1
+ACCELERATOR: 0
+DRAW TYPE  : 0
+SHARE      : 0
+X-CORD     : -1
+Y-CORD     : -1
+DESC       :
+#rem..........Bank
+	SUBMENUID  : 1
+	SUBMENUTYPE: 60
+	FONTTYPE   : 5
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xffffff
+	SHARE      : 1
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........Wager
+	SUBMENUID  : 2
+	SUBMENUTYPE: 60
+	FONTTYPE   : 5
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xffffff
+	SHARE      : 2
+	SOUNDTYPE  : 0
+	DESC       :
+*		     
+#rem..........Wager Menu
+MENUID     : 4
+MENUTYPE   : 3
+MOVEABLE   : 0
+ACTIVE     : 1
+SPRITEID   : 4
+ACCELERATOR: 0
+DRAW TYPE  : 0
+SHARE      : 0
+X-CORD     : -1
+Y-CORD     : -1
+DESC       :
+#rem..........Clear
+	SUBMENUID  : 5
+	SUBMENUTYPE: 50
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : 20
+	ACCELERATOR:0
+	DRAW TYPE  : 0
+	SHARE      : -1
+	SOUNDTYPE  : 11
+	DESC       :
+#rem..........Cash Out
+	SUBMENUID  : 6
+	SUBMENUTYPE: 50
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : 5
+	ACCELERATOR:0
+	DRAW TYPE  : 0
+	SHARE      : -1
+	SOUNDTYPE  : 11
+	DESC       :
+#rem..........Play
+	SUBMENUID  : 7
+	SUBMENUTYPE: 50
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : 23
+	ACCELERATOR:0
+	DRAW TYPE  : 0
+	SHARE      : -1
+	SOUNDTYPE  : 11
+	DESC       :
+#rem..........Bet 1 credit
+	SUBMENUID  : 8
+	SUBMENUTYPE: 50
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : 29
+	ACCELERATOR:0
+	DRAW TYPE  : 0
+	SHARE      : -1
+	SOUNDTYPE  : 11
+	DESC       :
+#rem..........Play 5 Credits
+	SUBMENUID  : 9
+	SUBMENUTYPE: 50
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : 26
+	ACCELERATOR:0
+	DRAW TYPE  : 0
+	SHARE      : -1
+	SOUNDTYPE  : 11
+	DESC       :
+#rem..........COIN SLOT
+	SUBMENUID  : 10
+	SUBMENUTYPE: 60
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 5
+	SHARE      : 74
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........Credits
+	SUBMENUID  : 11
+	SUBMENUTYPE: 60
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 0,0xffffff
+	SHARE      : 91
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........Coins In
+	SUBMENUID  : 12
+	SUBMENUTYPE: 60
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 0,0xffffff
+	SHARE      : 92
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........COIN SLOT ANIMATION
+	SUBMENUID  : 13
+	SUBMENUTYPE: 250
+	FONTTYPE   : 0
+	ACTIVE     : 0,0,1
+	SPRITEID   : 74
+	ACCELERATOR:0
+	DRAW TYPE  : 5
+	SHARE      : 74
+	SOUNDTYPE  : 0
+	DESC       :
+*
+#rem..........Card Menu
+MENUID     : 600
+MENUTYPE   : 1
+MOVEABLE   : 0
+ACTIVE     : 1
+SPRITEID   : -1
+ACCELERATOR: 0
+DRAW TYPE  : 0
+SHARE      : 0
+X-CORD     : -1
+Y-CORD     : -1
+DESC       :
+#rem..........NUMBERBOARD_01
+	SUBMENUID  : 1
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 701
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 601
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_02
+	SUBMENUID  : 2
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 702
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 602
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_03
+	SUBMENUID  : 3
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 703
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 603
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_04
+	SUBMENUID  : 4
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 704
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 604
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_05
+	SUBMENUID  : 5
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 705
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 605
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_06
+	SUBMENUID  : 6
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 706
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 606
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_07
+	SUBMENUID  : 7
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 707
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 607
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_08
+	SUBMENUID  : 8
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 708
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 608
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_09
+	SUBMENUID  : 9
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 709
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 609
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_10
+	SUBMENUID  : 10
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 710
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 610
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_11
+	SUBMENUID  : 11
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 711
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 611
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_12
+	SUBMENUID  : 12
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 712
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 612
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_13
+	SUBMENUID  : 13
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 713
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 613
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_14
+	SUBMENUID  : 14
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 714
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 614
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_15
+	SUBMENUID  : 15
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 715
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 615
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_16
+	SUBMENUID  : 16
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 716
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 616
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_17
+	SUBMENUID  : 17
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 717
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 617
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_18
+	SUBMENUID  : 18
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 718
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 618
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_19
+	SUBMENUID  : 19
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 719
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 619
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_20
+	SUBMENUID  : 20
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 720
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 620
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_21
+	SUBMENUID  : 21
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 721
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 621
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_22
+	SUBMENUID  : 22
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 722
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 622
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_23
+	SUBMENUID  : 23
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 723
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 623
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_24
+	SUBMENUID  : 24
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 724
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 624
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_25
+	SUBMENUID  : 25
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 725
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 625
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_26
+	SUBMENUID  : 26
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 726
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 626
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_27
+	SUBMENUID  : 27
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 727
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 627
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_28
+	SUBMENUID  : 28
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 728
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 628
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_29
+	SUBMENUID  : 29
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 729
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 629
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_30
+	SUBMENUID  : 30
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 730
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 630
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_31
+	SUBMENUID  : 31
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 731
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 631
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_32
+	SUBMENUID  : 32
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 732
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 632
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_33
+	SUBMENUID  : 33
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 733
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 633
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_34
+	SUBMENUID  : 34
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 734
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 634
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_35
+	SUBMENUID  : 35
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 735
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 635
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_36
+	SUBMENUID  : 36
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 736
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 636
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_37
+	SUBMENUID  : 37
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 737
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 637
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_38
+	SUBMENUID  : 38
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 738
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 638
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_39
+	SUBMENUID  : 39
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 739
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 639
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_40
+	SUBMENUID  : 40
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 740
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 640
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_41
+	SUBMENUID  : 41
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 741
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 641
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_42
+	SUBMENUID  : 42
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 742
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 642
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_43
+	SUBMENUID  : 43
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 743
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 643
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_44
+	SUBMENUID  : 44
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 744
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 644
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_45
+	SUBMENUID  : 45
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 745
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 645
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_46
+	SUBMENUID  : 46
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 746
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 646
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_47
+	SUBMENUID  : 47
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 747
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 647
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_48
+	SUBMENUID  : 48
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 748
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 648
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_49
+	SUBMENUID  : 49
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 749
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 649
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_50
+	SUBMENUID  : 50
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 750
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 650
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_51
+	SUBMENUID  : 51
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 751
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 651
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_52
+	SUBMENUID  : 52
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 752
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 652
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_53
+	SUBMENUID  : 53
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 753
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 653
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_54
+	SUBMENUID  : 54
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 754
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 654
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_55
+	SUBMENUID  : 55
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 755
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 655
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_56
+	SUBMENUID  : 56
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 756
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 656
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_57
+	SUBMENUID  : 57
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 757
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 657
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_58
+	SUBMENUID  : 58
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 758
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 658
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_59
+	SUBMENUID  : 59
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 759
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 659
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_60
+	SUBMENUID  : 60
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 760
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 660
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_61
+	SUBMENUID  : 61
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 761
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 661
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_62
+	SUBMENUID  : 62
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 762
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 662
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_63
+	SUBMENUID  : 63
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 763
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 663
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_64
+	SUBMENUID  : 64
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 764
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 664
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_65
+	SUBMENUID  : 65
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 765
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 665
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_66
+	SUBMENUID  : 66
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 766
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 666
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_67
+	SUBMENUID  : 67
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 767
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 667
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_68
+	SUBMENUID  : 68
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 768
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 668
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_69
+	SUBMENUID  : 69
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 769
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 669
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_70
+	SUBMENUID  : 70
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 770
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 670
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_71
+	SUBMENUID  : 71
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 771
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 671
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_72
+	SUBMENUID  : 72
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 772
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 672
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_73
+	SUBMENUID  : 73
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 773
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 673
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_74
+	SUBMENUID  : 74
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 774
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 674
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_75
+	SUBMENUID  : 75
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 775
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 675
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_76
+	SUBMENUID  : 76
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 776
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 676
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_77
+	SUBMENUID  : 77
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 777
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 677
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_78
+	SUBMENUID  : 78
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 778
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 678
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_79
+	SUBMENUID  : 79
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 779
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 679
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........NUMBERBOARD_80
+	SUBMENUID  : 80
+	SUBMENUTYPE: 31
+	FONTTYPE   : 20
+	ACTIVE     : 1
+	SPRITEID   : 780
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 680
+	SOUNDTYPE  : 0
+	DESC       :
+*
+#rem..........Hits
+MENUID     : 900
+MENUTYPE   : 1
+MOVEABLE   : 0
+ACTIVE     : 1
+SPRITEID   : 900
+ACCELERATOR: 0
+DRAW TYPE  : 0
+SHARE      : 0
+X-CORD     : -1
+Y-CORD     : -1
+DESC       :
+#rem..........Hits Title
+	SUBMENUID  : 1
+	SUBMENUTYPE: 61
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xffffff
+	SHARE      : 901
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........Hits Line 1
+	SUBMENUID  : 2
+	SUBMENUTYPE: 61
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xffffff
+	SHARE      : 902
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........Hits Line 2
+	SUBMENUID  : 3
+	SUBMENUTYPE: 61
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xffffff
+	SHARE      : 903
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........Hits Line 3
+	SUBMENUID  : 4
+	SUBMENUTYPE: 61
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xffffff
+	SHARE      : 904
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........Hits Line 4
+	SUBMENUID  : 5
+	SUBMENUTYPE: 61
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xffffff
+	SHARE      : 905
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........Hits Line 5
+	SUBMENUID  : 6
+	SUBMENUTYPE: 61
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xffffff
+	SHARE      : 906
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........Hits Line 6
+	SUBMENUID  : 7
+	SUBMENUTYPE: 61
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xffffff
+	SHARE      : 907
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........Hits Line 7
+	SUBMENUID  : 8
+	SUBMENUTYPE: 61
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xffffff
+	SHARE      : 908
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........Hits Line 8
+	SUBMENUID  : 9
+	SUBMENUTYPE: 61
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xffffff
+	SHARE      : 909
+	SOUNDTYPE  : 0
+	DESC       :
+*
+#rem..........Payoffs
+MENUID     : 912
+MENUTYPE   : 1
+MOVEABLE   : 0
+ACTIVE     : 1
+SPRITEID   : 912
+ACCELERATOR: 0
+DRAW TYPE  : 0
+SHARE      : 0
+X-CORD     : -1
+Y-CORD     : -1
+DESC       :
+#rem..........Payoffs Title
+	SUBMENUID  : 1
+	SUBMENUTYPE: 61
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xffffff
+	SHARE      : 913
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........Payoffs Line 1
+	SUBMENUID  : 2
+	SUBMENUTYPE: 61
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xffffff
+	SHARE      : 914
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........Payoffs Line 2
+	SUBMENUID  : 3
+	SUBMENUTYPE: 61
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xffffff
+	SHARE      : 915
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........Payoffs Line 3
+	SUBMENUID  : 4
+	SUBMENUTYPE: 61
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xffffff
+	SHARE      : 916
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........Payoffs Line 4
+	SUBMENUID  : 5
+	SUBMENUTYPE: 61
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xffffff
+	SHARE      : 917
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........Payoffs Line 5
+	SUBMENUID  : 6
+	SUBMENUTYPE: 61
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xffffff
+	SHARE      : 918
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........Payoffs Line 6
+	SUBMENUID  : 7
+	SUBMENUTYPE: 61
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xffffff
+	SHARE      : 919
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........Payoffs Line 7
+	SUBMENUID  : 8
+	SUBMENUTYPE: 61
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xffffff
+	SHARE      : 920
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........Payoffs Line 8
+	SUBMENUID  : 9
+	SUBMENUTYPE: 61
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xffffff
+	SHARE      : 921
+	SOUNDTYPE  : 0
+	DESC       :
+*
+#rem..........COIN DROPPING Menu
+MENUID     : 500
+MENUTYPE   : 1
+MOVEABLE   : 0
+ACTIVE     : 1
+SPRITEID   : 500
+ACCELERATOR: 0
+DRAW TYPE  : 0
+SHARE      : 0
+X-CORD     : -1
+Y-CORD     : -1
+DESC       :
+#rem..........
+	SUBMENUID  : 1
+	SUBMENUTYPE: 221
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 10
+	SHARE      : 501
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........
+	SUBMENUID  : 2
+	SUBMENUTYPE: 221
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 10
+	SHARE      : 502
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........
+	SUBMENUID  : 3
+	SUBMENUTYPE: 221
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 10
+	SHARE      : 503
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........
+	SUBMENUID  : 4
+	SUBMENUTYPE: 221
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 10
+	SHARE      : 504
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........
+	SUBMENUID  : 5
+	SUBMENUTYPE: 221
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 10
+	SHARE      : 505
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........
+	SUBMENUID  : 6
+	SUBMENUTYPE: 221
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 10
+	SHARE      : 506
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........
+	SUBMENUID  : 7
+	SUBMENUTYPE: 221
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 10
+	SHARE      : 507
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........
+	SUBMENUID  : 8
+	SUBMENUTYPE: 221
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 10
+	SHARE      : 508
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........
+	SUBMENUID  : 9
+	SUBMENUTYPE: 221
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 10
+	SHARE      : 509
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........
+	SUBMENUID  : 10
+	SUBMENUTYPE: 221
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 10
+	SHARE      : 510
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........
+	SUBMENUID  : 11
+	SUBMENUTYPE: 221
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 10
+	SHARE      : 511
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........
+	SUBMENUID  : 12
+	SUBMENUTYPE: 221
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 10
+	SHARE      : 512
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........
+	SUBMENUID  : 13
+	SUBMENUTYPE: 221
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 10
+	SHARE      : 513
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........
+	SUBMENUID  : 14
+	SUBMENUTYPE: 221
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 10
+	SHARE      : 514
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........
+	SUBMENUID  : 15
+	SUBMENUTYPE: 221
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 10
+	SHARE      : 515
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........
+	SUBMENUID  : 16
+	SUBMENUTYPE: 221
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 10
+	SHARE      : 516
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........
+	SUBMENUID  : 17
+	SUBMENUTYPE: 221
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 10
+	SHARE      : 517
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........
+	SUBMENUID  : 18
+	SUBMENUTYPE: 221
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 10
+	SHARE      : 518
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........
+	SUBMENUID  : 19
+	SUBMENUTYPE: 221
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 10
+	SHARE      : 519
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........
+	SUBMENUID  : 20
+	SUBMENUTYPE: 221
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 10
+	SHARE      : 520
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........
+	SUBMENUID  : 21
+	SUBMENUTYPE: 221
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 10
+	SHARE      : 521
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........
+	SUBMENUID  : 22
+	SUBMENUTYPE: 221
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 10
+	SHARE      : 522
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........
+	SUBMENUID  : 23
+	SUBMENUTYPE: 221
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 10
+	SHARE      : 523
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........
+	SUBMENUID  : 24
+	SUBMENUTYPE: 221
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 10
+	SHARE      : 524
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........
+	SUBMENUID  : 25
+	SUBMENUTYPE: 221
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 10
+	SHARE      : 525
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........
+	SUBMENUID  : 26
+	SUBMENUTYPE: 221
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 10
+	SHARE      : 526
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........
+	SUBMENUID  : 27
+	SUBMENUTYPE: 221
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 10
+	SHARE      : 527
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........
+	SUBMENUID  : 28
+	SUBMENUTYPE: 221
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 10
+	SHARE      : 528
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........
+	SUBMENUID  : 29
+	SUBMENUTYPE: 221
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 10
+	SHARE      : 529
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........
+	SUBMENUID  : 30
+	SUBMENUTYPE: 221
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 10
+	SHARE      : 530
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........
+	SUBMENUID  : 31
+	SUBMENUTYPE: 221
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 10
+	SHARE      : 531
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........
+	SUBMENUID  : 32
+	SUBMENUTYPE: 221
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 10
+	SHARE      : 532
+	SOUNDTYPE  : 
+	DESC       :
+*
+#rem..........Denomination Change Menu
+MENUID     : 180
+MENUTYPE   : 1
+MOVEABLE   : 0
+ACTIVE     : 1
+SPRITEID   : 180
+ACCELERATOR: 0
+DRAW TYPE  : 0
+SHARE      : 0
+X-CORD     : -1
+Y-CORD     : -1
+DESC       :
+#rem..........Current Denomination
+	SUBMENUID  : 1
+	SUBMENUTYPE: 61
+	FONTTYPE   : 7
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 0,0xffffff
+	SHARE      : 181
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........Down
+	SUBMENUID  : 2
+	SUBMENUTYPE: 50
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : 182
+	ACCELERATOR:0
+	DRAW TYPE  : 0
+	SHARE      : -1
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........Up
+	SUBMENUID  : 3
+	SUBMENUTYPE: 50
+	FONTTYPE   : 3
+	ACTIVE     : 1
+	SPRITEID   : 185
+	ACCELERATOR:0
+	DRAW TYPE  : 0
+	SHARE      : -1
+	SOUNDTYPE  : 0
+	DESC       :
+##rem..........Money In Machine
+#	SUBMENUID  : 4
+#	SUBMENUTYPE: 61
+#	FONTTYPE   : 3
+#	ACTIVE     : 1
+#	SPRITEID   : -1
+#	ACCELERATOR:0
+#	DRAW TYPE  : 0,0xffffff
+#	SHARE      : 178
+#	SOUNDTYPE  : 
+#	DESC       :Amount In Machine
+##rem..........Amount
+#	SUBMENUID  : 5
+#	SUBMENUTYPE: 61
+#	FONTTYPE   : 3
+#	ACTIVE     : 1
+#	SPRITEID   : -1
+#	ACCELERATOR:0
+#	DRAW TYPE  : 0,0xffffff
+#	SHARE      : 179
+#	SOUNDTYPE  : 
+#	DESC       :
+*
+#rem..........Bill Insert
+MENUID     : 400
+MENUTYPE   : 1
+MOVEABLE   : 0
+ACTIVE     : 1
+SPRITEID   : -1
+ACCELERATOR: 0
+DRAW TYPE  : 0
+SHARE      : 0
+X-CORD     : -1
+Y-CORD     : -1
+DESC       :
+#rem..........Input Slot
+	SUBMENUID  : 1
+	SUBMENUTYPE: 61
+	FONTTYPE   : 7
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 0,0xffffff
+	SHARE      : 411
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........$1
+	SUBMENUID  : 2
+	SUBMENUTYPE: 61
+	FONTTYPE   : 7
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 0
+	SHARE      : 401
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........$10
+	SUBMENUID  : 3
+	SUBMENUTYPE: 61
+	FONTTYPE   : 7
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 0
+	SHARE      : 402
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........$20
+	SUBMENUID  : 4
+	SUBMENUTYPE: 61
+	FONTTYPE   : 7
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 0
+	SHARE      : 403
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........$50
+	SUBMENUID  : 5
+	SUBMENUTYPE: 61
+	FONTTYPE   : 7
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 0
+	SHARE      : 404
+	SOUNDTYPE  : 
+	DESC       :
+#rem..........$100
+	SUBMENUID  : 6
+	SUBMENUTYPE: 61
+	FONTTYPE   : 7
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 0
+	SHARE      : 405
+	SOUNDTYPE  : 
+	DESC       :
+*
+#==========================================================
+#==		Common Dialog
+#==========================================================
+$ISCCommonDialog.inc
+#==========================================================
+*
+#==========================================================
+#==		Animation Dialog
+#==========================================================
+$AnimationQue.inc
+#==========================================================
+#rem..........
+~

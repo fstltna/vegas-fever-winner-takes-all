@@ -1,0 +1,110 @@
+//*************************************************************************************************
+//
+// Cashier.GUI
+//
+// ISC Casino
+// Cashier Dialog
+//
+//-------------------------------------------------------------------------------------------------
+//
+// by Amilcar M. Ubiera.
+//
+//*************************************************************************************************
+
+#include <CashierDefs.h>
+#include "../Sounds/Wavs.h"
+
+Version = 1
+
+Dialog
+{
+	ResourceFile				= CASHIER_GRA, "ISCCashier.gra", "Menu"
+	ResourceFile				= CASHIER_FONT_ARIAL10, "ISCArial10.rgf", "Fonts"
+	ResourceFile				= CASHIER_FONT_ARIAL12, "ISCArial12.rgf", "Fonts"
+	ResourceFile				= CASHIER_FONT_ARIAL18, "ISCArial18.rgf", "Fonts"
+
+	ID							= CASHIER_DIALOG
+	EnabledAnim					= CASHIER_GRA, 0
+	Style						= MoveableOnTitleBar
+
+	Defaults
+	{
+		ResourceFile			= CASHIER_GRA
+		TextFont				= CASHIER_FONT_ARIAL18, 0
+		TextColor				= White
+		SelectedTextColor		= White
+		HighlightTextColor		= White
+		TextJustify				= Center
+		TextMargins				= { 4, 0, 4, 0 }
+		ClickedSound			= BUTTON_WAV
+	}
+
+	TitleBar
+	{
+		EnabledAnim				= Default, 1
+	}
+
+	GraphicArea
+	{
+		ID						= CASHIER_PLAYER_BANK_TITLE
+		EnabledAnim				= Default, 2
+	}
+
+	GraphicArea
+	{
+		ID						= CASHIER_PLAYER_BANK
+		EnabledAnim				= Default, 3
+	}
+
+	GraphicArea
+	{
+		ID						= CASHIER_PLAYER_LOAN_TITLE
+		EnabledAnim				= Default, 4
+	}
+
+	GraphicArea
+	{
+		ID						= CASHIER_PLAYER_LOAN
+		EnabledAnim				= Default, 5
+	}
+
+	Button
+	{
+		ID						= CASHIER_TAKE_LOAN
+		UpAnim					= Default, 6
+		DownAnim				= Default, 7
+		HighlightAnim			= Default, 8
+		TextFont				= CASHIER_FONT_ARIAL12, 0
+		TextColor				= Black
+		DisabledTextColor		= Black
+		HighlightTextColor		= Red
+	}
+
+	Button
+	{
+		ID						= CASHIER_PAY_LOAN
+		UpAnim					= Default, 9
+		DownAnim				= Default, 10
+		DisabledAnim			= Default, 11
+		HighlightAnim			= Default, 12
+		TextFont				= CASHIER_FONT_ARIAL12, 0
+		TextColor				= Black
+		DisabledTextColor		= Black
+		HighlightTextColor		= Red
+	}
+
+	Button
+	{
+		ID						= CASHIER_OK
+		Style					= Default
+		UpAnim					= Default, 13
+		DownAnim				= Default, 14
+		DisabledAnim			= Default, 15
+		HighlightAnim			= Default, 16
+		TextFont				= CASHIER_FONT_ARIAL10, 0
+		TextColor				= Black
+		DisabledTextColor		= Black
+		HighlightTextColor		= Red
+	}
+}
+

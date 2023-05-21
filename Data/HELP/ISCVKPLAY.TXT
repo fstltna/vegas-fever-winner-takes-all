@@ -1,0 +1,19 @@
+VIDEO KENO
+
+
+HOW TO PLAY VIDEO KENO
+Video Keno is a simple game where 20 numbers are randomly selected out of a possible 80.  The player marks a number of spaces, anywhere from 1 to 10.  The amount that the player wins is based on the number of hits the player gets out of the number of marked spaces.
+
+Insert Coins
+To insert coins, click on the coin slot on the right of the face plate.  You will see the coins dropping into the slot, and the payoff area will highlight to show how much you can win with your present bet.  When you have inserted as many coins as you wish to play, press the play button.
+
+Winning
+Winnings are determined after all 20 spaces are marked.  If enough spaces are marked to warrent a payout, the player's credits are updated with their winnings.
+
+Credits
+When you have won, you will not be paid immediately.  Your winnings will accumulate in the keno machine as credits.  To play these credits, click on the Bet One Credit button, or the Bet Max Credits button.  These buttons will transfer money from your credits to your bet, and will allow you to play keno without having to insert more coins into the slot.
+
+Cash Out
+When you wish to take the money out of Credits, and put it into your bank, you can click on Cash Out, which will take your money out of the machine.  To interupt the cashing out animation, click inside the cash out tray while the coins are falling.  This will automatically move all accumulated credits to your bank.
+
+

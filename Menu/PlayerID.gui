@@ -1,0 +1,276 @@
+////////////////////////////////////////////////////////////////////////////////
+//																			  //
+//	PlayerID.gui
+//																			  //
+////////////////////////////////////////////////////////////////////////////////
+
+#include <PlayerIDDefs.h>
+#include "../Sounds/Wavs.h"
+
+Version = 1
+
+Dialog
+{
+	ResourceFile				=	EPlayerIDResourceMain, "ISCIntro.gra", "Menu"
+	ResourceFile				=	EPlayerIDResourceFontArial10, "ISCArial10.rgf", "Fonts"
+	ResourceFile				=	EPlayerIDResourceFontArial12, "ISCArial12.rgf", "Fonts"
+	ResourceFile				=	EPlayerIDResourceFontArial18, "ISCArial18.rgf", "Fonts"
+ 								
+	ID							=	EPlayerID
+	Style						=	MoveableOnTitleBar
+	EnabledAnim					=	EPlayerIDResourceMain, 10
+
+	Defaults
+	{
+		ResourceFile			=	EPlayerIDResourceMain
+		TextFont				=	EPlayerIDResourceFontArial10, 0
+		TextColor				=	White
+		SelectedTextColor		=	White
+		HighlightTextColor		=	White
+		TextJustify				=	Center
+		ClickedSound			= BUTTON_WAV
+	}
+
+////////////////////////////////////////////////////////////////////////////////
+
+//
+//Title Text
+//
+	TitleBar
+	{
+		ID						=	EPlayerIDTitleBar
+		EnabledAnim				=	Default,11
+		TextString				=	CORE_IDS_INTRO_PLAYERIDTITLE
+		TextFont				= EPlayerIDResourceFontArial12, 0
+	}
+
+////////////////////////////////////////////////////////////////////////////////
+
+	ListBox
+	{
+		ID						= EPlayerIDListBox
+		Style					= VScroll
+		EnabledAnim				= Default, 42
+		TextFont				= EPlayerIDResourceFontArial18, 0
+
+		VScroll
+		{
+			MinButton
+			{
+				UpAnim			= Default, 32
+				DownAnim		= Default, 33
+				DisabledAnim	= Default, 34
+				HighlightAnim	= Default, 35
+			}
+
+			MaxButton
+			{
+				UpAnim			= Default, 36
+				DownAnim		= Default, 37
+				DisabledAnim	= Default, 38
+				HighlightAnim	= Default, 39
+			}
+
+			ThumbButton
+			{
+				UpAnim			= Default, 41
+			}
+
+			TrackArea
+			{
+				EnabledAnim		= Default, 40
+			}
+		}
+
+		ItemControl : GraphicArea
+		{
+			TextArea			= Default, 24
+			TextFont			= EPlayerIDResourceFontArial18, 0
+			TextMargins			= { 4, 0, 4, 0 }
+		}
+
+		ItemControl : GraphicArea
+		{
+			TextArea			= Default, 25
+			TextFont			= EPlayerIDResourceFontArial18, 0
+			TextMargins			= { 4, 0, 4, 0 }
+		}
+
+		ItemControl : GraphicArea
+		{
+			TextArea			= Default, 26
+			TextFont			= EPlayerIDResourceFontArial18, 0
+			TextMargins			= { 4, 0, 4, 0 }
+		}
+
+		ItemControl : GraphicArea
+		{
+			TextArea			= Default, 27
+			TextFont			= EPlayerIDResourceFontArial18, 0
+			TextMargins			= { 4, 0, 4, 0 }
+		}
+
+		ItemControl : GraphicArea
+		{
+			TextArea			= Default, 28
+			TextFont			= EPlayerIDResourceFontArial18, 0
+			TextMargins			= { 4, 0, 4, 0 }
+		}
+
+		ItemControl : GraphicArea
+		{
+			TextArea			= Default, 29
+			TextFont			= EPlayerIDResourceFontArial18, 0
+			TextMargins			= { 4, 0, 4, 0 }
+		}
+
+		ItemControl : GraphicArea
+		{
+			TextArea			= Default, 30
+			TextFont			= EPlayerIDResourceFontArial18, 0
+			TextMargins			= { 4, 0, 4, 0 }
+		}
+
+		ItemControl : GraphicArea
+		{
+			TextArea			= Default, 31
+			TextFont			= EPlayerIDResourceFontArial18, 0
+			TextMargins			= { 4, 0, 4, 0 }
+		}
+	}
+
+////////////////////////////////////////////////////////////////////////////////
+
+//
+//UserID Text
+//
+	GraphicArea
+	{
+		ID						=	EPlayerIDUserIDHeader
+		EnabledAnim				=	Default,43
+		TextString				=	CORE_IDS_INTRO_PLAYERIDUSERID
+		TextFont				=	EPlayerIDResourceFontArial12, 0
+	}
+
+//
+//Password Edit
+//
+	EditBox
+	{
+		ID						=	EPlayerIDUserIDEditBox
+		EnabledAnim				=	Default,44
+		TextJustify				=	Left
+		TextFont				=	EPlayerIDResourceFontArial18, 0
+		MaxChars				=	12
+	}
+		
+//
+//Password Text
+//
+	GraphicArea
+	{
+		ID						=	EPlayerIDPasswordHeader
+		EnabledAnim				=	Default,45
+		TextString				=	CORE_IDS_INTRO_PLAYERIDPASSWORD
+		TextFont				=	EPlayerIDResourceFontArial12, 0
+	}
+
+//
+//Password Edit
+//
+	EditBox
+	{
+		ID						=	EPlayerIDPasswordEditBox
+		Style					=	Password
+		EnabledAnim				=	Default,46
+		TextFont				=	EPlayerIDResourceFontArial18, 0
+		TextJustify				=	Left
+		MaxChars				=	12
+	}
+		
+////////////////////////////////////////////////////////////////////////////////
+
+//
+//New Player
+//
+	Button
+	{
+		ID						=	EPlayerIDNewPlayerButton
+		UpAnim					=	Default, 16
+		DownAnim				=	Default, 17
+		DisabledAnim			=	Default, 18
+		HighlightAnim			=	Default, 19
+		TextString				=	CORE_IDS_INTRO_PLAYERIDNEWPLAYER
+		TextColor				=	Black
+		DisabledTextColor		=	Black
+		HighlightTextColor		=	Red
+	}
+
+//
+//Delete Player
+//
+	Button
+	{
+		ID						=	EPlayerIDDeletePlayerButton
+		CreateState				=	Disabled
+		UpAnim					=	Default, 394
+		DownAnim				=	Default, 395
+		DisabledAnim			=	Default, 396
+		HighlightAnim			=	Default, 397
+		TextString				=	CORE_IDS_INTRO_PLAYERIDDELETEPLAYER
+		TextColor				=	Black
+		DisabledTextColor		=	Black
+		HighlightTextColor		=	Red
+	}
+
+//
+//Forgot Password
+//
+	Button
+	{
+		ID						=	EPlayerIDForgotPasswordButton
+		UpAnim					=	Default, 398
+		DownAnim				=	Default, 399
+		DisabledAnim			=	Default, 400
+		HighlightAnim			=	Default, 401
+		TextString				=	CORE_IDS_INTRO_PLAYERIDFORGOTPASSWORD
+		TextColor				=	Black
+		DisabledTextColor		=	Black
+		HighlightTextColor		=	Red
+	}
+
+//
+//Start
+//
+	Button
+	{
+		ID						=	EPlayerIDStartButton
+		Style					=	Default
+		UpAnim					=	Default, 20
+		DownAnim				=	Default, 21
+		DisabledAnim			=	Default, 22
+		HighlightAnim			=	Default, 23
+		TextString				=	CORE_IDS_INTRO_PLAYERIDSTART
+		TextColor				=	Black
+		DisabledTextColor		=	Black
+		HighlightTextColor		=	Red
+	}
+
+//
+//Exit
+//
+	Button
+	{
+		ID						=	EPlayerIDExitButton
+		UpAnim					=	Default, 12
+		DownAnim				=	Default, 13
+		DisabledAnim			=	Default, 14
+		HighlightAnim			=	Default, 15
+		TextString				=	CORE_IDS_INTRO_PLAYERIDEXIT
+		TextColor				=	Black
+		DisabledTextColor		=	Black
+		HighlightTextColor		=	Red
+		HotKeys					=	Escape
+	}
+}
+

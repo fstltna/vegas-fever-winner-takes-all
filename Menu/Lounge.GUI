@@ -1,0 +1,224 @@
+//*************************************************************************************************
+//
+// Lounge.GUI
+//
+// ISC Casino
+// Chat Lounge Dialog
+//
+//-------------------------------------------------------------------------------------------------
+//
+// by Amilcar M. Ubiera.
+//
+//*************************************************************************************************
+
+#include <LoungeDefs.h>
+#include "../Sounds/Wavs.h"
+
+Version = 1
+
+Dialog
+{
+	ResourceFile				= LOUNGE_GRA, "Lounge.gra", "Menu"
+	ResourceFile				= LOUNGE_FONT_ARIAL10, "ISCArial10.rgf", "Fonts"
+	ResourceFile				= LOUNGE_FONT_ARIAL12, "ISCArial12.rgf", "Fonts"
+	ResourceFile				= LOUNGE_FONT_ARIAL18, "ISCArial18.rgf", "Fonts"
+ 								
+	ID							= LOUNGE_DIALOG
+	EnabledAnim					= LOUNGE_GRA, 0
+
+	Defaults
+	{
+		ResourceFile			= LOUNGE_GRA
+		TextFont				= LOUNGE_FONT_ARIAL10, 0
+		TextColor				= White
+		SelectedTextColor		= White
+		HighlightTextColor		= White
+		TextJustify				= Left
+		TextMargins				= { 4, 0, 4, 0 }
+		ClickedSound			= BUTTON_WAV
+	}
+
+	EditBox
+	{
+		ID						= LOUNGE_CHAT_EDIT_BOX
+		EnabledAnim				= Default, 13
+		TextJustify				= Left
+//		MaxChars				= 43
+	}
+
+	GraphicArea
+	{
+		ID						= LOUNGE_LIGHTS_1
+		CreateState				= AnimationActive
+		EnabledAnim				= Default, 161, 163, 165, AnimDelay = 500, NumLoops = Infinite
+	}
+
+	GraphicArea
+	{
+		ID						= LOUNGE_LIGHTS_2
+		CreateState				= AnimationActive
+		EnabledAnim				= Default, 162, 164, 166, AnimDelay = 500, NumLoops = Infinite
+	}
+
+	GraphicArea
+	{
+		ID						= LOUNGE_SPINNING_LOGO
+		CreateState				= AnimationActive
+		EnabledAnim				= Default, 131 - 160, AnimDelay = 150, NumLoops = Infinite
+	}
+
+	Button
+	{
+		ID						= LOUNGE_BACK_BUTTON
+		UpAnim					= Default, 167
+		DownAnim				= Default, 168
+		DisabledAnim			= Default, 169
+	}
+
+	Button
+	{
+		ID						= LOUNGE_SEND_BUTTON
+		UpAnim					= Default, 10
+		DownAnim				= Default, 11
+		DisabledAnim			= Default, 12
+	}
+
+	Button
+	{
+		ID						= LOUNGE_CLEAR_BUTTON
+		UpAnim					= Default, 7
+		DownAnim				= Default, 8
+		DisabledAnim			= Default, 9
+	}
+
+	ListBox
+	{
+		ID						= LOUNGE_CHAT_LIST_BOX
+		Style					= VScroll
+		EnabledAnim				= Default, 91
+
+		VScroll
+		{
+			MinButton
+			{
+				UpAnim			= Default, 46
+				DownAnim		= Default, 47
+				DisabledAnim	= Default, 48
+			}
+
+			MaxButton
+			{
+				UpAnim			= Default, 49
+				DownAnim		= Default, 50
+				DisabledAnim	= Default, 51
+			}
+
+			ThumbButton
+			{
+				UpAnim			= Default, 53
+			}
+
+			TrackArea
+			{
+				EnabledAnim		= Default, 52
+			}
+		}
+
+		ItemControl : GraphicArea { TextArea = Default, 14 }
+		ItemControl : GraphicArea { TextArea = Default, 15 }
+		ItemControl : GraphicArea { TextArea = Default, 16 }
+		ItemControl : GraphicArea { TextArea = Default, 17 }
+		ItemControl : GraphicArea { TextArea = Default, 18 }
+		ItemControl : GraphicArea { TextArea = Default, 19 }
+		ItemControl : GraphicArea { TextArea = Default, 20 }
+		ItemControl : GraphicArea { TextArea = Default, 21 }
+		ItemControl : GraphicArea { TextArea = Default, 22 }
+		ItemControl : GraphicArea { TextArea = Default, 23 }
+		ItemControl : GraphicArea { TextArea = Default, 24 }
+		ItemControl : GraphicArea { TextArea = Default, 25 }
+		ItemControl : GraphicArea { TextArea = Default, 26 }
+		ItemControl : GraphicArea { TextArea = Default, 27 }
+		ItemControl : GraphicArea { TextArea = Default, 28 }
+		ItemControl : GraphicArea { TextArea = Default, 29 }
+		ItemControl : GraphicArea { TextArea = Default, 30 }
+		ItemControl : GraphicArea { TextArea = Default, 31 }
+		ItemControl : GraphicArea { TextArea = Default, 32 }
+		ItemControl : GraphicArea { TextArea = Default, 33 }
+		ItemControl : GraphicArea { TextArea = Default, 34 }
+		ItemControl : GraphicArea { TextArea = Default, 35 }
+		ItemControl : GraphicArea { TextArea = Default, 36 }
+		ItemControl : GraphicArea { TextArea = Default, 37 }
+		ItemControl : GraphicArea { TextArea = Default, 38 }
+		ItemControl : GraphicArea { TextArea = Default, 39 }
+		ItemControl : GraphicArea { TextArea = Default, 40 }
+		ItemControl : GraphicArea { TextArea = Default, 41 }
+		ItemControl : GraphicArea { TextArea = Default, 42 }
+		ItemControl : GraphicArea { TextArea = Default, 43 }
+		ItemControl : GraphicArea { TextArea = Default, 44 }
+		ItemControl : GraphicArea { TextArea = Default, 45 }
+	}
+
+	ListBox
+	{
+		ID						= LOUNGE_CHAT_PLAYER_LIST_BOX
+		Style					= VScroll, Sorted
+		EnabledAnim				= Default, 92
+
+		VScroll
+		{
+			MinButton
+			{
+				UpAnim			= Default, 83
+				DownAnim		= Default, 84
+				DisabledAnim	= Default, 85
+			}
+
+			MaxButton
+			{
+				UpAnim			= Default, 86
+				DownAnim		= Default, 87
+				DisabledAnim	= Default, 88
+			}
+
+			ThumbButton
+			{
+				UpAnim			= Default, 90
+			}
+
+			TrackArea
+			{
+				EnabledAnim		= Default, 89
+			}
+		}
+
+		ItemControl : GraphicArea { TextArea = Default, 55 }
+		ItemControl : GraphicArea { TextArea = Default, 56 }
+		ItemControl : GraphicArea { TextArea = Default, 57 }
+		ItemControl : GraphicArea { TextArea = Default, 58 }
+		ItemControl : GraphicArea { TextArea = Default, 59 }
+		ItemControl : GraphicArea { TextArea = Default, 60 }
+		ItemControl : GraphicArea { TextArea = Default, 61 }
+		ItemControl : GraphicArea { TextArea = Default, 62 }
+		ItemControl : GraphicArea { TextArea = Default, 63 }
+		ItemControl : GraphicArea { TextArea = Default, 64 }
+		ItemControl : GraphicArea { TextArea = Default, 65 }
+		ItemControl : GraphicArea { TextArea = Default, 66 }
+		ItemControl : GraphicArea { TextArea = Default, 67 }
+		ItemControl : GraphicArea { TextArea = Default, 68 }
+		ItemControl : GraphicArea { TextArea = Default, 69 }
+		ItemControl : GraphicArea { TextArea = Default, 70 }
+		ItemControl : GraphicArea { TextArea = Default, 71 }
+		ItemControl : GraphicArea { TextArea = Default, 72 }
+		ItemControl : GraphicArea { TextArea = Default, 73 }
+		ItemControl : GraphicArea { TextArea = Default, 74 }
+		ItemControl : GraphicArea { TextArea = Default, 75 }
+		ItemControl : GraphicArea { TextArea = Default, 76 }
+		ItemControl : GraphicArea { TextArea = Default, 77 }
+		ItemControl : GraphicArea { TextArea = Default, 78 }
+		ItemControl : GraphicArea { TextArea = Default, 79 }
+		ItemControl : GraphicArea { TextArea = Default, 80 }
+		ItemControl : GraphicArea { TextArea = Default, 81 }
+		ItemControl : GraphicArea { TextArea = Default, 82 }
+	}
+}
+

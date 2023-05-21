@@ -1,0 +1,69 @@
+//*************************************************************************************************
+//
+// FloorState.GUI
+//
+// ISC Casino
+// Floor Dialog
+//
+//-------------------------------------------------------------------------------------------------
+//
+// by Amilcar M. Ubiera.
+//
+//*************************************************************************************************
+
+#include <FloorStateDefs.h>
+#include "../Sounds/Wavs.h"
+#include "../Data/FloorLoc/FLOOREnglish.rgl"
+
+Version = 1
+
+Dialog
+{
+	ResourceFile				= FLOOR_MENU_GRA, "ISCFloor.gra", "Menu"
+	ResourceFile				= FLOOR_MENU_FONT_ARIAL10, "ISCArial10.rgf", "Fonts"
+	ResourceFile				= FLOOR_MENU_FONT_ARIAL12, "ISCArial12.rgf", "Fonts"
+	ResourceFile				= FLOOR_MENU_FONT_ARIAL18, "ISCArial18.rgf", "Fonts"
+
+	ID							= FLOOR_MENU_DIALOG
+//	EnabledAnim					= FLOOR_MENU_GRA, 0
+	CreateState					= AnimationActive
+
+	Defaults
+	{
+		CreateState				= Disabled, AnimationActive
+		Style					= UseToolTip, NoFocus
+		ResourceFile			= FLOOR_MENU_GRA
+		TextFont				= FLOOR_MENU_FONT_ARIAL10, 0
+		TextColor				= White
+		SelectedTextColor		= White
+		HighlightTextColor		= White
+		TextJustify				= Left
+		TextMargins				= { 4, 0, 4, 0 }
+		ClickedSound			= BUTTON_WAV
+	}
+
+	Button { ID = GAME_HOTEL				UpAnim = Default, 15,			AnimDelay = 0, NumLoops = Infinite HighlightAnim = Default, 16				Style = Default, NoFocus CreateState = Disabled }
+	Button { ID = GAME_CASHIER				UpAnim = Default, 6,			AnimDelay = 0, NumLoops = Infinite	HighlightAnim = Default, 7,				AnimDelay = 0, NumLoops = Infinite ToolTipText = CORE_IDS_FLOOR_18 CreateState = Enabled }
+	Button { ID = GAME_SL					UpAnim = Default, 104 - 133,	AnimDelay = 100, NumLoops = Infinite HighlightAnim = Default, 134 - 163,	AnimDelay = 100, NumLoops = Infinite ToolTipText = CORE_IDS_FLOOR_15 }
+	Button { ID = GAME_VS					UpAnim = Default, 220 - 222,	AnimDelay = 500, NumLoops = Infinite HighlightAnim = Default, 223 - 225,	AnimDelay = 500, NumLoops = Infinite ToolTipText = CORE_IDS_FLOOR_16 }
+	Button { ID = GAME_PK					UpAnim = Default, 96 - 97,		AnimDelay = 500, NumLoops = Infinite HighlightAnim = Default, 98 - 99,		AnimDelay = 500, NumLoops = Infinite ToolTipText = CORE_IDS_FLOOR_13 }
+	Button { ID = GAME_VP					UpAnim = Default, 184 - 201,	AnimDelay = 112, NumLoops = Infinite HighlightAnim = Default, 202 - 219,	AnimDelay = 112, NumLoops = Infinite ToolTipText = CORE_IDS_FLOOR_14 }
+	Button { ID = GAME_SPORTS_BOOK			UpAnim = Default, 164 - 167,	AnimDelay = 250, NumLoops = Infinite HighlightAnim = Default, 168 - 171,	AnimDelay = 250, NumLoops = Infinite ToolTipText = CORE_IDS_FLOOR_17 }
+	Button { ID = GAME_MW					UpAnim = Default, 82 - 87,		AnimDelay = 150, NumLoops = Infinite HighlightAnim = Default, 88 - 93,		AnimDelay = 150, NumLoops = Infinite ToolTipText = CORE_IDS_FLOOR_9 }
+	Button { ID = GAME_VK					UpAnim = Default, 172 - 177,	AnimDelay = 250, NumLoops = Infinite HighlightAnim = Default, 178 - 183,	AnimDelay = 250, NumLoops = Infinite ToolTipText = CORE_IDS_FLOOR_VIDEO_KENO }
+	Button { ID = GAME_SB					UpAnim = Default, 102,			AnimDelay = 0, NumLoops = Infinite HighlightAnim = Default, 103,			AnimDelay = 0, NumLoops = Infinite ToolTipText = CORE_IDS_FLOOR_8 }
+	Button { ID = GAME_BJ					UpAnim = Default, 2,			AnimDelay = 0, NumLoops = Infinite HighlightAnim = Default, 3,				AnimDelay = 0, NumLoops = Infinite ToolTipText = CORE_IDS_FLOOR_1 }
+	Button { ID = GAME_CS					UpAnim = Default, 70,			AnimDelay = 0, NumLoops = Infinite HighlightAnim = Default, 71,				AnimDelay = 0, NumLoops = Infinite ToolTipText = CORE_IDS_FLOOR_10 }
+	Button { ID = GAME_AR					UpAnim = Default, 0,			AnimDelay = 0, NumLoops = Infinite HighlightAnim = Default, 1,				AnimDelay = 0, NumLoops = Infinite ToolTipText = CORE_IDS_FLOOR_2 }
+	Button { ID = GAME_CR					UpAnim = Default, 68,			AnimDelay = 0, NumLoops = Infinite HighlightAnim = Default, 69,				AnimDelay = 0, NumLoops = Infinite ToolTipText = CORE_IDS_FLOOR_3 }
+	Button { ID = GAME_PG					UpAnim = Default, 94,			AnimDelay = 0, NumLoops = Infinite HighlightAnim = Default, 95,				AnimDelay = 0, NumLoops = Infinite ToolTipText = CORE_IDS_FLOOR_12 }
+	Button { ID = GAME_RD					UpAnim = Default, 100,			AnimDelay = 0, NumLoops = Infinite HighlightAnim = Default, 101,			AnimDelay = 0, NumLoops = Infinite ToolTipText = CORE_IDS_FLOOR_11 }
+	Button { ID = GAME_BC					UpAnim = Default, 4,			AnimDelay = 0, NumLoops = Infinite HighlightAnim = Default, 5,				AnimDelay = 0, NumLoops = Infinite ToolTipText = CORE_IDS_FLOOR_5 }
+	Button { ID = GAME_MB					UpAnim = Default, 80,			AnimDelay = 0, NumLoops = Infinite HighlightAnim = Default, 81,				AnimDelay = 0, NumLoops = Infinite ToolTipText = CORE_IDS_FLOOR_6 }
+	Button { ID = GAME_LR					UpAnim = Default, 78,			AnimDelay = 0, NumLoops = Infinite HighlightAnim = Default, 79,				AnimDelay = 0, NumLoops = Infinite ToolTipText = CORE_IDS_FLOOR_7 }
+	Button { ID = GAME_ER					UpAnim = Default, 72,			AnimDelay = 0, NumLoops = Infinite HighlightAnim = Default, 73,				AnimDelay = 0, NumLoops = Infinite ToolTipText = CORE_IDS_FLOOR_4 }
+	Button { ID = GAME_LOUNGE				UpAnim = Default, 8 - 37,		AnimDelay = 100, NumLoops = Infinite HighlightAnim = Default, 38 - 67,		AnimDelay = 100, NumLoops = Infinite ToolTipText = CORE_IDS_FLOOR_19 }
+	Button { ID = FLOOR_MENU_EXIT			UpAnim = Default, 74,			AnimDelay = 0, NumLoops = Infinite HighlightAnim = Default, 75				Style = Default, NoFocus CreateState = Enabled }
+	Button { ID = FLOOR_MENU_ANIM_TOGGLE	UpAnim = Default, 226,			AnimDelay = 0, NumLoops = Infinite HighlightAnim = Default, 227				Style = Default, NoFocus CreateState = Enabled }
+}
+

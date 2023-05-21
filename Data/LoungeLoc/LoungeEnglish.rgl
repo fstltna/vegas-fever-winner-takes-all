@@ -1,0 +1,33 @@
+//*************************************************************************************************
+//
+// LoungeEnglish.rgl
+//
+// Localization File
+//
+//-------------------------------------------------------------------------------------------------
+//
+// Language Identifiers:
+//
+// Afrikaans   54     Czech        5     Greek        8     Lithuanian  39     Spanish     10
+// Albanian    28     Danish       6     Hebrew      13     Macedonian  47     Swedish     29
+// Arabic       1     Dutch       19     Hungarian   14     Norwegian   20     Thai        30
+// Basque      45     English      9     Icelandic   15     Polish      21     Turkish     31
+// Belarusian  35     Estonian    37     Indonesian  33     Portuguese  22     Ukrainian   34
+// Bulgarian    2     Farsi       41     Italian     16     Romanian    24
+// Catalan      3     Finnish     11     Japanese    17     Russian     25
+// Chinese      4     French      12     Korean      18     Slovak      27
+// Croatian    26     German       7     Latvian     38     Slovenian   36
+//
+//*************************************************************************************************
+
+//
+// Locale Identifier for this Language File
+//
+LANGUAGE 9
+
+//
+// Localized Strings
+//
+0 CORE_IDS_LOUNGE_CONNECTING_TO_SERVER "Connecting to server..."
+1 CORE_IDS_LOUNGE_WELCOME "Welcome to the hotel lounge"
+2 CORE_IDS_LOUNGE_RETURNING_TO_FLOOR "Lost connection to server, returning to floor"

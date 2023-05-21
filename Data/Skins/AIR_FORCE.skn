@@ -1,0 +1,30 @@
+[Air Force Skin]
+
+Name=Air Force
+
+BJMenu=SKIN_BJ_AF.mnu
+ARMenu=SKIN_AR_AF.mnu
+CRMenu=SKIN_CR_AF.mnu
+ERMenu=SKIN_ER_AF.mnu
+BCMenu=ISCBC.mnu
+MBMenu=ISCMB.mnu
+LRMenu=ISCLR.mnu
+SBMenu=ISCSB.mnu
+MWMenu=ISCMW.mnu
+CSMenu=ISCCS.mnu
+RDMenu=ISCRD.mnu
+PGMenu=ISCPG.mnu
+PKMenu=SKIN_PK_AF.mnu
+VPMenu=ISCVP.mnu
+SLMenu=ISCSL.mnu
+VSMenu=ISCVS.mnu
+VKMenu=ISCVK.mnu
+INTROMenu=ISCIntro.mnu
+FLOORMenu=ISCFloor.mnu
+STAGEMenu=ISCStage.mnu
+
+
+
+
+
+

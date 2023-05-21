@@ -1,0 +1,59 @@
+VIDEO POKER
+
+HOW TO PLAY VIDEO POKER
+Video Poker is a video version of draw poker, where the player wins not by competing against other participants, but by getting good hands. 
+
+HOW TO PLACE A BET
+To insert coins, click on the coin slot on the right of the face plate, or click on the numbered buttons on the front of the machine.  You will see the coins dropping into the slot, and the payoff area will highlight to show how much you can win with your present bet.  If you insert coins by pressing the numbered buttons, that number of coins will be swiftly dropped into the slot for you.  
+
+GAME PLAY
+When you have inserted as many coins as you wish to play, click on the 'Deal/Draw' button.  You will be dealt 5 cards from a randomly shuffled deck of 52 cards.
+
+Hold Cards
+Click on the button below each card you wish to hold, or click on the card itself.  Each card that has been selected to keep will have an icon below it indicating that it will be held.  Clicking on the card or the appropriate card button again will toggle the hold status off.
+
+When you have selected the cards you wish to keep, click on the 'Deal/Draw' button again.  The cards which have not been selected to hold will be removed, and then replaced with the next cards off the top of the same deck as the first 5 cards.
+
+Grading Hands
+After your replacement cards have been dealt, your hand will automatically be graded, and you will win according to the payoff schedule on the screen.
+
+Credits
+When you have won, you will be paid immediately!  Your winnings will also accumulate in the slot machine as credits.  To play these credits, click on the Bet One Credit button, or the Bet Max Credits button.  These buttons will take money from your bank and credits to your bet, and will allow you to play again without having to insert more coins into the slot.
+
+Cash Out
+If you wish to take the money out of Credits, you can click on Cash Out, which will take your money out of the machine.  For large payouts, some of the player's money will cash out in the form of coins, while the rest will automatically transfer to the player's bank.  To interupt the cashing out animation, click inside the cash out tray while the coins are falling.  This will automatically move all accumulated credits to your bank.
+
+
+GAME RULES
+
+ACES HIGH
+This variation of Video Poker distinguishes hands containing 4 cards of the same rank into the following: Aces only, 2's, 3's or 4s, and all other cards.  Each variation pays off differently, with Aces paying off the most.  A pair of Jacks or better is required to receive a pay off.
+
+BLACKJACKS
+This variation of Video Poker requires a pair of Jacks or better to pay off.
+
+CRAZY DEUCES
+This variation of Video Poker sets all 2's as wild cards, automatically creating the best possible hand out of any hand containing 2's.  Three of a kind are required to hit a payoff.  There is also a differentiation between a natural Royal Flush and a Royal Flush created with a wild card.  Lastly, 5 of a kind is now a valid hand.
+
+CRAZY EIGHTS
+This variation of Video Poker sets all 8's as wild cards, automatically creating the best possible hand out of any hand containing 8's.  Three of a kind are required to hit a payoff.  There is also a differentiation between a natural Royal Flush and a Royal Flush created with a wild card.  Lastly, 5 of a kind is now a valid hand.
+
+DEUCES JOKERS WILD
+This variation of Video Poker sets all 2's and Jokers as wild cards, automatically creating the best possible hand out of any hand containing 2's and Jokers.  Three of a kind are required to hit a payoff.  There is also a differentiation between a natural Royal Flush and a Royal Flush created with a wild card.  Lastly, 5 of a kind is now a valid hand.
+
+HEAVENLY SEVENS
+This variation of Video Poker sets all 7's as wild cards, automatically creating the best possible hand with any hand containing 7's.  Three of a kind are required to hit a payoff.  There is also a differentiation between a natural Royal Flush and a Royal Flush created with a wild card.  Lastly, 5 of a kind is now a valid hand.
+
+JACKS OR BETTER
+This variation of Video Poker requires a pair of Jacks or better to pay off.
+
+JOKER JOKER
+This variation of Video Poker sets all Jokers as wild cards, automatically creating the best possible hand out of any hand containing Jokers.  Two pair are required to hit a payoff.  There is also a differentiation between a natural Royal Flush and a Royal Flush created with a wild card.  Lastly, 5 of a kind is now a valid hand.
+
+JOKERS WILD
+This variation of Video Poker sets all Jokers as wild cards, automatically creating the best possible hand out of any hand containing Jokers.  Two of a kind are required to hit a payoff.  There is also a differentiation between a natural Royal Flush and a Royal Flush created with a wild card.  Lastly, 5 of a kind is now a valid hand.
+
+TENS OR BETTER
+This variation of Video Poker requires a pair of Tens or better to pay off.
+
+

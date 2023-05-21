@@ -1,0 +1,116 @@
+////////////////////////////////////////////////////////////////////////////////
+//																			  //
+//	IntroExitCheck.GUI													  //
+//																			  //
+////////////////////////////////////////////////////////////////////////////////
+
+#include <IntroExitCheckDefs.h>
+#include "../Sounds/Wavs.h"
+
+Version = 1
+
+Dialog
+{
+	ResourceFile			=	EIntroExitCheckResourceMain, "ISCIntro.gra", "Menu"
+	ResourceFile			=	EIntroExitCheckResourceFontArial10, "ISCArial10.rgf", "Fonts"
+	ResourceFile			=	EIntroExitCheckResourceFontArial12, "ISCArial12.rgf", "Fonts"
+	ResourceFile			=	EIntroExitCheckResourceFontArial18, "ISCArial18.rgf", "Fonts"
+ 								
+	ID						=	EIntroExitCheck
+	Style					=	MoveableOnTitleBar
+	EnabledAnim				=	EIntroExitCheckResourceMain, 100
+
+	Defaults
+	{
+		ResourceFile		=	EIntroExitCheckResourceMain
+		TextFont			=	EIntroExitCheckResourceFontArial10, 0
+		TextColor			=	White
+		SelectedTextColor	=	White
+		HighlightTextColor	=	White
+		TextJustify			=	Center
+		ClickedSound			= BUTTON_WAV
+	}
+
+////////////////////////////////////////////////////////////////////////////////
+
+//
+//Title Text
+//
+	TitleBar
+	{
+		ID					=	EIntroExitCheckTitleBar
+		EnabledAnim			=	Default,112
+		TextString			=	CORE_IDS_INTRO_EXITCHECKTITLE
+		TextFont			=	EIntroExitCheckResourceFontArial18, 0
+	}
+
+////////////////////////////////////////////////////////////////////////////////
+
+//
+//Line 1
+//
+	GraphicArea
+	{
+		ID					=	EIntroExitCheckLine1Header
+		EnabledAnim			=	Default,109
+		TextFont			=	EIntroExitCheckResourceFontArial12, 0
+		TextString			=	CORE_IDS_INTRO_EXITCHECKLINE1
+	}
+
+//
+//Line 2
+//
+	GraphicArea
+	{
+		ID					=	EIntroExitCheckLine2Header
+		EnabledAnim			=	Default,110
+		TextFont			=	EIntroExitCheckResourceFontArial12, 0
+		TextString			=	CORE_IDS_INTRO_EXITCHECKLINE2
+	}
+
+//
+//Line 3
+//
+	GraphicArea
+	{
+		ID					=	EIntroExitCheckLine3Header
+		EnabledAnim			=	Default,111
+		TextFont			=	EIntroExitCheckResourceFontArial12, 0
+		TextString			=	CORE_IDS_INTRO_EXITCHECKLINE3
+	}
+
+////////////////////////////////////////////////////////////////////////////////
+
+//
+//CANCEL
+//
+	Button
+	{
+		ID					=	EIntroExitCheckCancelButton
+		Style				=	Default
+		UpAnim				=	Default, 101
+		DownAnim			=	Default, 102
+		DisabledAnim		=	Default, 103
+		HighlightAnim		=	Default, 104
+		TextString			=	CORE_IDS_INTRO_EXITCHECKCANCEL
+		TextColor			=	Black
+		HighlightTextColor	=	Red
+	}
+
+//
+//OK
+//
+	Button
+	{
+		ID					=	EIntroExitCheckOkButton
+		Style				=	Default
+		UpAnim				=	Default, 105
+		DownAnim			=	Default, 106
+		DisabledAnim		=	Default, 107
+		HighlightAnim		=	Default, 108
+		TextString			=	CORE_IDS_INTRO_EXITCHECKOK
+		TextColor			=	Black
+		HighlightTextColor	=	Red
+	}
+}
+

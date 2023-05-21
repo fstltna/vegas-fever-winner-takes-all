@@ -1,0 +1,495 @@
+ISCIntro.Gra
+ISCCommon.Gra
+BACKGROUND COLOR 0..255..-1 trans : 0
+HYPERTEXT COLOR 0..255            : 15
+FONT TYPE 0..5                    : 3
+ISCArial06
+ISCArial07
+ISCArial08
+ISCArial09
+ISCArial10
+ISCArial11
+ISCArial12
+ISCArial14
+ISCArial18
+ISCArial24
+#rem......Needed filenames
+]P:ISCINTROBackground.gra
+]T:INTROLoc
+]S:ISCINTRO.ds
+]R:ISCINTROPlay.txt
+]I:ISCINTRO.INI
+#rem..........Background
+MENUID     : 1
+MENUTYPE   : 0
+MOVEABLE   : 0
+ACTIVE     : 1
+SPRITEID   : -1
+ACCELERATOR: 0
+DRAW TYPE  : 0
+SHARE      : 0
+X-CORD     : -1
+Y-CORD     : -1
+DESC       :
+*
+#rem..........
+MENUID     : 2
+MENUTYPE   : 1
+MOVEABLE   : 0
+ACTIVE     : 1
+SPRITEID   : -1
+ACCELERATOR: 0
+DRAW TYPE  : 0
+SHARE      : 0
+X-CORD     : -1
+Y-CORD     : -1
+DESC       :
+#rem..........Menu
+	SUBMENUID  : 3
+	SUBMENUTYPE: 60
+	FONTTYPE   : 1
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 3
+	SOUNDTYPE  : 0
+	DESC       :
+*
+#***********************************************************************
+#
+#
+#
+# ONorOFFLINE
+#
+#
+#
+#***********************************************************************
+MENUID     : 300
+MENUTYPE   : 1
+MOVEABLE   : 0
+ACTIVE     : 0
+SPRITEID   : 300
+ACCELERATOR: 0
+DRAW TYPE  : 0
+SHARE      : 0
+X-CORD     : -1
+Y-CORD     : -1
+DESC       :
+#rem..........Instruction Text
+	SUBMENUID  : 1
+	SUBMENUTYPE: 61
+	FONTTYPE   : 5
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xff00ff
+	SHARE      : 307
+	SOUNDTYPE  : 0
+	DESC       : Please select your method of play
+#rem..........Off
+	SUBMENUID  : 2
+	SUBMENUTYPE: 50
+	FONTTYPE   : 5
+	ACTIVE     : 1
+	SPRITEID   : 304
+	ACCELERATOR:0
+	DRAW TYPE  : 0,0,0xff00ff
+	SHARE      : -1
+	SOUNDTYPE  : 0
+	DESC       : Offline Play
+#rem..........On
+	SUBMENUID  : 3
+	SUBMENUTYPE: 50
+	FONTTYPE   : 5
+	ACTIVE     : 1
+	SPRITEID   : 301
+	ACCELERATOR:0
+	DRAW TYPE  : 0,0,0xff00ff
+	SHARE      : -1
+	SOUNDTYPE  : 0
+	DESC       : Online Play
+*
+#***********************************************************************
+#
+#
+#
+# PLAYER ID
+#
+#
+#
+#***********************************************************************
+MENUID     : 10
+MENUTYPE   : 1
+MOVEABLE   : 0
+ACTIVE     : 0
+SPRITEID   : 10
+ACCELERATOR: 0
+DRAW TYPE  : 0
+SHARE      : 0
+X-CORD     : -1
+Y-CORD     : -1
+DESC       :
+#rem..........LINE 1
+	SUBMENUID  : 1
+	SUBMENUTYPE: 41
+	FONTTYPE   : 4
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xffffff,0xffff00
+	SHARE      : 21
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........LINE 2
+	SUBMENUID  : 2
+	SUBMENUTYPE: 41
+	FONTTYPE   : 4
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xffffff,0xffff00
+	SHARE      : 22
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........LINE 3
+	SUBMENUID  : 3
+	SUBMENUTYPE: 41
+	FONTTYPE   : 4
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xffffff,0xffff00
+	SHARE      : 23
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........LINE 4
+	SUBMENUID  : 4
+	SUBMENUTYPE: 41
+	FONTTYPE   : 4
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xffffff,0xffff00
+	SHARE      : 24
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........LINE 5
+	SUBMENUID  : 5
+	SUBMENUTYPE: 41
+	FONTTYPE   : 4
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xffffff,0xffff00
+	SHARE      : 25
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........LINE 6
+	SUBMENUID  : 6
+	SUBMENUTYPE: 41
+	FONTTYPE   : 4
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xffffff,0xffff00
+	SHARE      : 26
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........LINE 7
+	SUBMENUID  : 7
+	SUBMENUTYPE: 41
+	FONTTYPE   : 4
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xffffff,0xffff00
+	SHARE      : 27
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........LINE 8
+	SUBMENUID  : 8
+	SUBMENUTYPE: 41
+	FONTTYPE   : 4
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xffffff,0xffff00
+	SHARE      : 28
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........SCROLL UP BUTTON
+	SUBMENUID  : 20
+	SUBMENUTYPE: 400,22,22,8
+	FONTTYPE   : 4
+	ACTIVE     : 1
+	SPRITEID   : 29
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 0
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........SCROLL DOWN BUTTON
+	SUBMENUID  : 21
+	SUBMENUTYPE: 405,22,22,8
+	FONTTYPE   : 4
+	ACTIVE     : 1
+	SPRITEID   : 32
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 0
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........SCROLL THUMB
+	SUBMENUID  : 22
+	SUBMENUTYPE: 45,20,21,8
+	FONTTYPE   : 4
+	ACTIVE     : 1
+	SPRITEID   : 36
+	ACCELERATOR: 0
+	DRAW TYPE  : 0
+	SHARE      : 35
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........TITLE
+	SUBMENUID  : 23
+	SUBMENUTYPE: 61
+	FONTTYPE   : 4
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,255
+	SHARE      : 11
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........Exit Button
+	SUBMENUID  : 24
+	SUBMENUTYPE: 50
+	FONTTYPE   : 4
+	ACTIVE     : 1
+	SPRITEID   : 12
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xffffff,0xffff00
+	SHARE      : -1
+	SOUNDTYPE  : 0
+	DESC       : Exit
+#rem..........Add player
+	SUBMENUID  : 25
+	SUBMENUTYPE: 50
+	FONTTYPE   : 4
+	ACTIVE     : 1
+	SPRITEID   : 15
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xffffff,0xffff00
+	SHARE      : -1
+	SOUNDTYPE  : 0
+	DESC       :New Player
+#rem..........Start
+	SUBMENUID  : 26
+	SUBMENUTYPE: 50
+	FONTTYPE   : 4
+	ACTIVE     : 1
+	SPRITEID   : 18
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,15
+	SHARE      : -1
+	SOUNDTYPE  : 0
+	DESC       :START
+#rem..........Enter Password
+	SUBMENUID  : 27
+	SUBMENUTYPE: 61
+	FONTTYPE   : 4
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xffffff
+	SHARE      : 37
+	SOUNDTYPE  : 0
+	DESC       :Enter Password
+#rem..........Password Edit
+	SUBMENUID  : 28
+	SUBMENUTYPE: 100
+	FONTTYPE   : 4
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 0,0xffffff
+	SHARE      : 38
+	SOUNDTYPE  : 0
+	DESC       :
+*
+#***********************************************************************
+#
+#
+#
+# Offline Registration Interface
+#
+#
+#
+#***********************************************************************
+MENUID     : 150
+MENUTYPE   : 1
+MOVEABLE   : 0
+ACTIVE     : 0
+SPRITEID   : 150
+ACCELERATOR: 0
+DRAW TYPE  : 0
+SHARE      : 0
+X-CORD     : -1
+Y-CORD     : -1
+DESC       :
+#rem..........Exit
+	SUBMENUID  : 1
+	SUBMENUTYPE: 50
+	FONTTYPE   : 5
+	ACTIVE     : 1
+	SPRITEID   : 151
+	ACCELERATOR:0
+	DRAW TYPE  : 0,0,0xff00ff
+	SHARE      : -1
+	SOUNDTYPE  : 0
+	DESC       : Exit
+#rem..........Submit
+	SUBMENUID  : 2
+	SUBMENUTYPE: 50
+	FONTTYPE   : 5
+	ACTIVE     : 1
+	SPRITEID   : 154
+	ACCELERATOR:0
+	DRAW TYPE  : 0,0,0xff00ff
+	SHARE      : -1
+	SOUNDTYPE  : 0
+	DESC       : Submit
+#rem..........Enter Player Name
+	SUBMENUID  : 3
+	SUBMENUTYPE: 61
+	FONTTYPE   : 5
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xff00ff
+	SHARE      : 157
+	SOUNDTYPE  : 0
+	DESC       : Enter Player Name:
+#rem..........Player Name Edit
+	SUBMENUID  : 4
+	SUBMENUTYPE: 100
+	FONTTYPE   : 4
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 0,0xff00ff
+	SHARE      : 158
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........Enter Password
+	SUBMENUID  : 5
+	SUBMENUTYPE: 61
+	FONTTYPE   : 5
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xff00ff
+	SHARE      : 159
+	SOUNDTYPE  : 0
+	DESC       : Enter Password:
+#rem..........Password Edit
+	SUBMENUID  : 6
+	SUBMENUTYPE: 100
+	FONTTYPE   : 4
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 0,0xff00ff
+	SHARE      : 160
+	SOUNDTYPE  : 0
+	DESC       :
+#rem..........Verify Password
+	SUBMENUID  : 7
+	SUBMENUTYPE: 61
+	FONTTYPE   : 5
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xff00ff
+	SHARE      : 161
+	SOUNDTYPE  : 0
+	DESC       : Verify Password:
+#rem..........Verify Edit
+	SUBMENUID  : 8
+	SUBMENUTYPE: 100
+	FONTTYPE   : 4
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR:0
+	DRAW TYPE  : 0,0xff00ff
+	SHARE      : 162
+	SOUNDTYPE  : 0
+	DESC       :
+*
+#***********************************************************************
+#
+#
+#
+# ONorOFFLINE
+#
+#
+#
+#***********************************************************************
+MENUID     : 50
+MENUTYPE   : 300
+MOVEABLE   : 0
+ACTIVE     : 0
+SPRITEID   : 50
+ACCELERATOR: 0
+DRAW TYPE  : 0
+SHARE      : 0
+X-CORD     : -1
+Y-CORD     : -1
+DESC       :
+#rem..........Line 1
+	SUBMENUID  : 1
+	SUBMENUTYPE: 61
+	FONTTYPE   : 5
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xff00ff
+	SHARE      : 307
+	SOUNDTYPE  : 0
+	DESC       : The passowrd that was entered
+#rem..........Line 2
+	SUBMENUID  : 2
+	SUBMENUTYPE: 61
+	FONTTYPE   : 5
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xff00ff
+	SHARE      : 307
+	SOUNDTYPE  : 0
+	DESC       : does not match the selected
+#rem..........Line 3
+	SUBMENUID  : 3
+	SUBMENUTYPE: 61
+	FONTTYPE   : 5
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xff00ff
+	SHARE      : 307
+	SOUNDTYPE  : 0
+	DESC       : player name.
+#rem..........Line 4
+	SUBMENUID  : 4
+	SUBMENUTYPE: 61
+	FONTTYPE   : 5
+	ACTIVE     : 1
+	SPRITEID   : -1
+	ACCELERATOR: 0
+	DRAW TYPE  : 0,0xff00ff
+	SHARE      : 307
+	SOUNDTYPE  : 0
+	DESC       : Please try again.
+*
+~

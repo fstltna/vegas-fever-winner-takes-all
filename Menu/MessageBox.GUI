@@ -1,0 +1,104 @@
+////////////////////////////////////////////////////////////////////////////////
+//
+//	MessageBox.GUI
+//
+////////////////////////////////////////////////////////////////////////////////
+
+#include <MessageBoxDefs.h>
+#include "../Sounds/Wavs.h"
+
+Version = 1
+
+Dialog
+{
+	ResourceFile			=	EMessageBoxResourceMain, "ISCIntro.gra", "Menu"
+	ResourceFile			=	EMessageBoxResourceFontArial10, "ISCArial10.rgf", "Fonts"
+	ResourceFile			=	EMessageBoxResourceFontArial12, "ISCArial12.rgf", "Fonts"
+	ResourceFile			=	EMessageBoxResourceFontArial18, "ISCArial18.rgf", "Fonts"
+ 								
+	ID						=	EMessageBox
+	Style					=	MoveableOnTitleBar
+	EnabledAnim				=	EMessageBoxResourceMain, 60
+
+	Defaults
+	{
+		ResourceFile		=	EMessageBoxResourceMain
+		TextFont			=	EMessageBoxResourceFontArial10, 0
+		TextColor			=	White
+		SelectedTextColor	=	White
+		HighlightTextColor	=	White
+		TextJustify			=	Center
+		ClickedSound		=	BUTTON_WAV
+	}
+
+	//
+	// Title Text
+	//
+	TitleBar
+	{
+		ID					=	EMessageBoxTitleBar
+		EnabledAnim			=	Default, 68
+		TextFont			=	EMessageBoxResourceFontArial18, 0
+	}
+
+	//
+	// Line
+	//
+	GraphicArea
+	{
+		ID					=	EMessageBoxLineHeader
+		Style				=	WordBreak, NoFocus
+		EnabledAnim			=	Default, 65
+		TextFont			=	EMessageBoxResourceFontArial12, 0
+	}
+
+	//
+	// Button 1
+	//
+	Button
+	{
+		ID					=	EMessageBoxButton1
+		Style				=	Default
+		UpAnim				=	Default, 61
+		DownAnim			=	Default, 62
+		DisabledAnim		=	Default, 63
+		HighlightAnim		=	Default, 64
+		TextString			=	CORE_IDS_INTRO_INTROERROROK
+		TextColor			=	Black
+		HighlightTextColor	=	Red
+	}
+
+	//
+	// Button 1 (2-button)
+	//
+	Button
+	{
+		ID					=	EMessageBoxButton21
+		Style				=	Default
+		CreateState			=	Invisible
+		UpAnim				=	Default, 101
+		DownAnim			=	Default, 102
+		DisabledAnim		=	Default, 103
+		HighlightAnim		=	Default, 104
+		TextString			=	CORE_IDS_INTRO_INTROERROROK
+		TextColor			=	Black
+		HighlightTextColor	=	Red
+	}
+
+	//
+	// Button 2 (2-button)
+	//
+	Button
+	{
+		ID					=	EMessageBoxButton22
+		CreateState			=	Invisible
+		UpAnim				=	Default, 105
+		DownAnim			=	Default, 106
+		DisabledAnim		=	Default, 107
+		HighlightAnim		=	Default, 108
+		TextString			=	CORE_IDS_INTRO_INTROERRORCANCEL
+		TextColor			=	Black
+		HighlightTextColor	=	Red
+	}
+}
+

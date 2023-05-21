@@ -1,0 +1,24 @@
+SIC BO
+
+HOW TO PLAY SIC BO
+Sic Bo (Dice Pair) is an ancient Chinese gambling game; it is played with three dice.  The object of the game is to select the individual numbers or combination of numbers that appear on the dice after they are shaken.  The various possibilities are clearly and separately displayed with the payoff odds on the table layout.  The layout is designed to be easily read.  The possibilities include single dice numbers, two of a kind, three of a kind, or combinations of any two or three of the dice.
+
+HOW TO PLACE A BET
+To place a bet, click on the chip icon(s) representing the amount you want to bet.  As you click on chips, the number to the right of the instruction line will increase, showing you the amount you currently hold in your 'hand'.  To place the wager on the table, move your cursor over the area where you wish to bet.  If that area is a valid choice at the current time, hypertext will appear under your cursor showing you how much you currently have bet at this location, and what the payoff is for this bet.  To place your bet, left-mouse click on your chosen betting area.  To remove money from your 'hand', click on 'Clear'.  To remove all your bets from the table, click on 'Clear' again.
+
+PAYOFFS
+Wager:                          Payout Odds:
+Three of a kind                  150 to 1
+Two of a kind (doubles)            8 to 1
+Any two dice combinations          5 to 1
+Any three of a kind (any triple)  24 to 1
+Total value of 4 or 17            50 to 1
+Total value of 5 or 16            18 to 1
+Total value of 6 or 15            14 to 1
+Total value of 7 or 14            12 to 1
+Total value of 8 or 13             8 to 1
+Total value of 9, 10, 11, or 12    6 to 1
+Small bet or bit bet               1 to 1
+One of a kind                      1 to 1
+
+

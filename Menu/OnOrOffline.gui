@@ -1,0 +1,75 @@
+////////////////////////////////////////////////////////////////////////////////
+//																			  //
+//	OnOrOffline.GUI													  //
+//																			  //
+////////////////////////////////////////////////////////////////////////////////
+
+#include <OnOrOfflineDefs.h>
+#include "../Sounds/Wavs.h"
+
+Version = 1
+
+Dialog
+{
+	ResourceFile			=	EOnOrOfflineResourceMain, "ISCIntro.gra", "Menu"
+	ResourceFile			=	EOnOrOfflineResourceFontArial10, "ISCArial10.rgf", "Fonts"
+	ResourceFile			=	EOnOrOfflineResourceFontArial12, "ISCArial12.rgf", "Fonts"
+ 								
+	ID						=	EOnOrOffline
+	Style					=	MoveableOnTitleBar
+	EnabledAnim				=	EOnOrOfflineResourceMain, 300
+
+	Defaults
+	{
+		ResourceFile		=	EOnOrOfflineResourceMain
+		TextFont		=	EOnOrOfflineResourceFontArial10, 0
+		TextColor		=	White
+		SelectedTextColor	=	White
+		HighlightTextColor	=	White
+		TextJustify		=	Center
+		ClickedSound			= BUTTON_WAV
+	}
+
+//
+//Instructions
+//
+	GraphicArea
+	{
+		ID			=	EOnOrOfflineInstructionHeader
+		EnabledAnim		=	Default,309
+		TextString		=	CORE_IDS_INTRO_ONOROFFLINEINSTRUCTIONS
+		TextFont		=	EOnOrOfflineResourceFontArial12, 0
+	}
+
+//
+//Online
+//
+	Button
+	{
+		ID			=	EOnOrOfflineOnlineButton
+		Style			=	Default
+		UpAnim			=	Default, 301
+		DownAnim		=	Default, 302
+		DisabledAnim		=	Default, 303
+		HighlightAnim		=	Default, 304
+		TextString		=	CORE_IDS_INTRO_ONOROFFLINEONLINE
+		TextColor		=	Black
+		HighlightTextColor	=	Red
+	}
+
+//
+//Offline
+//
+	Button
+	{
+		ID			=	EOnOrOfflineOfflineButton
+		UpAnim			=	Default, 305
+		DownAnim		=	Default, 306
+		DisabledAnim		=	Default, 307
+		HighlightAnim		=	Default, 308
+		TextString		=	CORE_IDS_INTRO_ONOROFFLINEOFFLINE
+		TextColor		=	Black
+		HighlightTextColor	=	Red
+	}
+}
+

@@ -1,0 +1,29 @@
+BLACKJACK
+
+HOW TO PLAY BLACKJACK
+The object of Blackjack is to come closer to twenty-one than the Dealer without going over.
+
+HOW TO PLACE A BET
+To place a bet, click on the chip icon(s) representing the amount you want to bet.  As you click on chips, the number to the right of the instruction line will increase, showing you the amount you currently hold in your 'hand'.  To place the wager on the table, click on the 'Done' button.  To remove chips from your hand, click on the 'Clear' button.
+
+THE BASIC GAME
+To begin, two cards are dealt to each player and the Dealer.  Both of the players' cards will be face up, while one of the dealer's cards will be face down.  Face cards all count 10. The Ace counts either 1 or 11 depending on which will make your hand higher without exceeding twenty-one.  The rest of the cards count their pip value. If you are dealt the value of 21 in the first two cards (needing an Ace and a 10, Jack, Queen, or King), you have a "Blackjack" and are paid immediately.
+
+After the cards are dealt, the Dealer and all players look at their hands.  If  the Dealer has blackjack, he immediately shows his cards, and all players who do not have blackjack immediately lose. If the Dealer does not have blackjack, he continues dealing cards as desired to each player in turn until the player's hand is complete.  If you want an additional card, press "hit". When you have all the cards you want, press "stand".  If the total of your cards is over twenty-one, you have "busted". The Dealer collects your bet and your hand has ended.
+
+When all players have completed their hands, the dealer shows his face-down card.  If the Dealer's total is less than 17, he must take additional cards until he "busts" or his total is over seventeen. The Dealer must "stand" on seventeen or higher.
+
+After the Dealer's hand is complete, it is compared to all players who have not "busted". If the player's hand is higher than the Dealer's hand, the player wins. If the Dealer's hand is higher, the player loses. If the player and the Dealer have the same total, it is a "push", and the player neither wins nor loses.
+
+INSURANCE
+If the Dealer's face up card is an Ace, he will offer you the option of buying insurance immediately after the deal. If you choose to accept, you make an additional bet of up to half of your original wager as an insurance bet. What you are betting on with the insurance bet, is that the dealer does have blackjack, in which case your hand loses automatically.  After all players accept or decline insurance, the Dealer will show his face-down card if he has blackjack.  If you have purchased insurance, you will be paid according to the schedule under "Game Info". Unless you also have blackjack, you will lose your original wager.  If you also have blackjack, your original bet is a "push" and you neither win nor lose. If the dealer does not have blackjack, he will collect all insurance bets, and play proceeds as normal.
+
+DOUBLING
+If you feel that with the addition of only one card, you can beat the Dealer, you may choose to "double". You place an additional bet up to the amount of your original bet. You will then be dealt one card, and your turn is over. If your hand beats the Dealer's, you will win an amount equal to your combined bet. Doubling best occurs when your hand is 9  through 11 since the most likely card to be  received is a 10 or higher, making the new  total 19 through 21.  Doubling can, however,  be done with any amount except blackjack.
+
+SPLITTING
+When your first two cards are identical in value (two 4's, two 8's, two face cards, etc.)  you can elect to "split" the hand.  If you choose to "split" you will automatically place an amount equal to your original wager on the table.  You will then receive one additional card on each of the new "hands",  and can "hit", "stand", or "double" as above. In essence then, you are playing two distinct hands, each with the chance of getting  blackjack or busting or anywhere in-between.  Splitting such things as face cards  is usually a poor thing to do since you would  be breaking up a very good hand for the  possibility of two poor ones. 
+
+Splitting Aces is always a good idea, however if you do split aces, you will only be given one additional card per ace.  Splitting the rest is  a matter of opinion. 
+
+

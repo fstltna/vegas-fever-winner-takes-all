@@ -1,0 +1,38 @@
+PAI GOW POKER
+
+HOW TO PLAY PAI GOW POKER
+In Pai Gow Poker, the objective is to create two hands out of the seven cards dealt, with the five card hand being better than the two card hand. As in Blackjack, you are trying to beat the dealer not the other players.
+
+HOW TO PLACE A BET
+To place a bet, click on the chip icon(s) representing the amount you want to bet.  As you click on chips, the number to the right of the instruction line will increase, showing you the amount you currently hold in your 'hand'.  To place the wager on the table, click on the 'Done' button.  To remove chips from your hand, click on the 'Clear' button.
+
+PLAY OF THE GAME
+Seven stacks of seven cards are dealt in front of the Dealer. The Dealer then hands one of the stacks to each player,and one to himself, discarding the unused cards.
+What makes Pai Gow different from other poker games is that you have to create two hands, a regular poker hand and another two card hand. The only requirement is that the five card hand must be better than the two card hand, i.e. if you have two Kings and the rest of your cards are low and of mixed suits you cannot put the kings in the two card hand. The same rules apply if you did have two tens in the hand with the Kings; you would not be able to put the Kings in the two card hand, but you could place the tens there.
+Click on the two cards you wish to place in your low hand to highlight them.  If you wish to select different cards, click on the 'Clear' button.  When you have selected your hand, click on 'Done'.
+
+JOKER
+In Pai Gow Poker, the Joker is wild in specific, limited ways.  The Joker can be used to complete a Straight or a Flush in the 5-card hand.  Otherwise, it is considered to be an Ace.  For instance, if you had 3 of Hearts, 6 of Hearts, 10 of Hearts, Joker, 2 of Clubs, 2 of Spades, and 4 of Hearts, you could put the 2 of Clubs and 2 of Spades into your low hand, leaving you with a 10-High Hearts Flush in your high hand.
+
+GRADING
+When all players have selected their low hands, the dealer will show his cards, and each player's hands will be compared to the dealer's.  If both your hands beat both the dealer's hands, you win.  If both your hands are of lesser value than the dealer's, you lose.
+
+Unlike other poker games, but similar to Blackjack, is the ability to get a "push" with the Dealer. If the Dealer wins one of the hands and you win the other, you have achieved a push and you will get the money you bet back. If you manage to tie the Dealer in either the low hand or the high hand, the Dealer is considered to have won that hand. 
+
+Hand Rankings
+Below is a list of the hands in poker to help you optimize your five card hand. This is ranked highest to lowest.
+
+     Royal Flush
+     Straight Flush
+     Four of a Kind
+     Full House
+     Flush
+     Straight
+     Three of a Kind
+     Two Pair
+     One Pair
+     High Card
+
+When comparing hands of identical rank, the hand with the highest ranking card is the winner. 
+
+

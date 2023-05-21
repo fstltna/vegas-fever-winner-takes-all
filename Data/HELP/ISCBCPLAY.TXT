@@ -1,0 +1,31 @@
+BACCARAT
+
+HOW TO PLAY BACCARAT
+Baccarat is played by two fictitious entities, known as the PLAYER and the BANKER, both handled by the Dealer.  The participants wager whether they think the PLAYER will win, the BANKER will win, or whether there will be a TIE.  The entity who wins is the one with the higher hand total, with 9 being a perfect score for a hand.
+
+HOW TO PLACE A BET
+To place a bet, click on the chip icon(s) representing the amount you want to bet.  As you click on chips, the number to the right of the instruction line will increase, showing you the amount you currently hold in your 'hand'.  To place the wager on the table, click on the button representing where you want your bet to be placed; Player, Tie, or Banker. To remove a bet from the table, click on 'Clear'.  When you are finished placing your wager, click on the 'Done' button.
+
+PLAYING BACCARAT
+After all gamblers have placed their wagers, two cards are dealt, one at a time face up, to the two areas, PLAYER and BANKER. The pip value of each side's two cards are totaled (aces count 1, 2-9 count as normal, 10's and face cards count as 0).  Only the last digit in the total is used.  For example, a 7 and an 8 add up to 15.  The total used is 5. The objective is to get as close to 9 as possible.  Since only the last digit in a total is used, if the total goes to 10, it becomes a 0 and so on.  If either side has either an 8 or a 9 in their first two cards, they have a "natural" and no more cards are dealt. If there is no natural, additional cards may be dealt under the following rules:
+
+PLAYER:
+When the total of the first two cards equals 0, 1, 2, 3, 4, or 5 the PLAYER will draw a card. On 6, 7, 8, or 9 the PLAYER will stand.
+
+BANKER:
+If the PLAYER stood on 6 or 7, the BANKER will always draw on totals of 0, 1, 2, 3, 4, or 5 and will stand on 6, 7, 8, or 9. The BANKER will draw when he has a 0, 1, or 2. Otherwise, the BANKER's action will depend on what he has and what the PLAYER's third card was, as follows:
+
+Has 3  -- Draw if Player has 0,1,2,3,4,5,6,7,9 
+        Stand if Player has 8     
+Has 4  -- Draw if Player has 2,3,4,5,6,7 
+        Stand if Player has 0,1,8,9
+Has 5  -- Draw if Player has 4,5,6,7 
+        Stand if Player has 0,1,2,3,8,9
+Has 6  -- Draw if Player has 6,7 
+        Stand if Player has 0,1,2,3,4,5,8,9
+Has 7  -- Draw never - Stand always
+Has 8,9 -- Draw never - Natural - Stand
+
+Once each side has taken the additional card, if appropriate, the totals are compared. If the PLAYER side is closer to 9, then the PLAYER wins and anyone who has bet on the PLAYER will win an amount equal to their wager.  If the BANKER side is closer to 9, then the BANKER wins and anyone who has bet on the BANKER will win an amount equal to their wager, less 5% (known as vigorish). If the PLAYER and the BANKER are the same, it is a TIE and anyone who has bet on a tie occurring will receive 9 times their wager.
+
+

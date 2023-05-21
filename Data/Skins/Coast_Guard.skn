@@ -1,0 +1,29 @@
+[Coast Guard Skin]
+
+Name=Coast Guard
+
+BJMenu=SKIN_BJ_CG.mnu
+ARMenu=SKIN_AR_CG.mnu
+CRMenu=SKIN_CR_CG.mnu
+ERMenu=SKIN_ER_CG.mnu
+BCMenu=ISCBC.mnu
+MBMenu=ISCMB.mnu
+LRMenu=ISCLR.mnu
+SBMenu=ISCSB.mnu
+MWMenu=ISCMW.mnu
+CSMenu=ISCCS.mnu
+RDMenu=ISCRD.mnu
+PGMenu=ISCPG.mnu
+PKMenu=SKIN_PK_CG.mnu
+VPMenu=ISCVP.mnu
+SLMenu=ISCSL.mnu
+VSMenu=ISCVS.mnu
+VKMenu=ISCVK.mnu
+INTROMenu=ISCIntro.mnu
+FLOORMenu=ISCFloor.mnu
+STAGEMenu=ISCStage.mnu
+
+
+
+
+

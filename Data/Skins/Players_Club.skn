@@ -1,0 +1,29 @@
+[Players Club Skin]
+
+Name=Players Club
+
+BJMenu=SKIN_BJ_PC.mnu
+ARMenu=SKIN_AR_PC.mnu
+CRMenu=SKIN_CR_PC.mnu
+ERMenu=SKIN_ER_PC.mnu
+BCMenu=ISCBC.mnu
+MBMenu=ISCMB.mnu
+LRMenu=ISCLR.mnu
+SBMenu=ISCSB.mnu
+MWMenu=ISCMW.mnu
+CSMenu=ISCCS.mnu
+RDMenu=ISCRD.mnu
+PGMenu=ISCPG.mnu
+PKMenu=SKIN_PK_PC.mnu
+VPMenu=ISCVP.mnu
+SLMenu=ISCSL.mnu
+VSMenu=ISCVS.mnu
+VKMenu=ISCVK.mnu
+INTROMenu=ISCIntro.mnu
+FLOORMenu=ISCFloor.mnu
+STAGEMenu=ISCStage.mnu
+
+
+
+
+

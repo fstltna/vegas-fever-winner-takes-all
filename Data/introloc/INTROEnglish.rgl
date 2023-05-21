@@ -1,0 +1,106 @@
+//*************************************************************************************************
+//
+// INTROEnglish.rgl
+//
+// Localization File
+//
+//-------------------------------------------------------------------------------------------------
+//
+// Language Identifiers:
+//
+// Afrikaans   54     Czech        5     Greek        8     Lithuanian  39     Spanish     10
+// Albanian    28     Danish       6     Hebrew      13     Macedonian  47     Swedish     29
+// Arabic       1     Dutch       19     Hungarian   14     Norwegian   20     Thai        30
+// Basque      45     English      9     Icelandic   15     Polish      21     Turkish     31
+// Belarusian  35     Estonian    37     Indonesian  33     Portuguese  22     Ukrainian   34
+// Bulgarian    2     Farsi       41     Italian     16     Romanian    24
+// Catalan      3     Finnish     11     Japanese    17     Russian     25
+// Chinese      4     French      12     Korean      18     Slovak      27
+// Croatian    26     German       7     Latvian     38     Slovenian   36
+//
+//*************************************************************************************************
+
+//
+// Locale Identifier for this Language File
+//
+LANGUAGE 9
+
+//
+// Localized Strings
+//
+  0 CORE_IDS_INTRO_0   " "
+  1 CORE_IDS_INTRO_OFFLINEREGISTRATIONTITLE		"Offline Registration"
+  2 CORE_IDS_INTRO_OFFLINEREGISTRATIONUSERID   		"User ID"
+  3 CORE_IDS_INTRO_OFFLINEREGISTRATIONPASSWORD   	"Password"
+  4 CORE_IDS_INTRO_OFFLINEREGISTRATIONVERIFY		"Verify Password"
+  5 CORE_IDS_INTRO_OFFLINEREGISTRATIONEXIT		"Exit"
+  6 CORE_IDS_INTRO_OFFLINEREGISTRATIONSUBMIT		"Submit"
+  7 CORE_IDS_INTRO_ONOROFFLINEINSTRUCTIONS		"Select Method Of Play"
+  8 CORE_IDS_INTRO_ONOROFFLINEONLINE			"Online"
+  9 CORE_IDS_INTRO_ONOROFFLINEOFFLINE			"Offline"
+ 10 CORE_IDS_INTRO_ONLINEREGISTRATIONTITLE		"Online Registration (red fields required)"
+ 11 CORE_IDS_INTRO_ONLINEREGISTRATIONFIRSTNAME		"First Name"
+ 12 CORE_IDS_INTRO_ONLINEREGISTRATIONMIDDLEINITIAL	"MI"
+ 13 CORE_IDS_INTRO_ONLINEREGISTRATIONLASTNAME		"Last Name"
+ 14 CORE_IDS_INTRO_ONLINEREGISTRATIONADDRESSLINE1	"Address Line 1"
+ 15 CORE_IDS_INTRO_ONLINEREGISTRATIONADDRESSLINE2	"Address Line 2 (Optional)"
+ 16 CORE_IDS_INTRO_ONLINEREGISTRATIONCITY		"City"
+ 17 CORE_IDS_INTRO_ONLINEREGISTRATIONSTATE		"State"
+ 18 CORE_IDS_INTRO_ONLINEREGISTRATIONZIP		"Zip Code"
+ 19 CORE_IDS_INTRO_ONLINEREGISTRATIONEMAIL		"Email Address"
+ 20 CORE_IDS_INTRO_ONLINEREGISTRATIONDATEOFBIRTH	"Birthday (mm/dd/yyyy)"
+ 21 CORE_IDS_INTRO_ONLINEREGISTRATIONUSERID		"User ID"
+ 22 CORE_IDS_INTRO_ONLINEREGISTRATIONPASSWORD		"Password"
+ 23 CORE_IDS_INTRO_ONLINEREGISTRATIONVERIFY		"Verify Password"
+ 24 CORE_IDS_INTRO_ONLINEREGISTRATIONEXIT		"Exit"
+ 25 CORE_IDS_INTRO_ONLINEREGISTRATIONSUBMIT		"Submit"
+ 26 CORE_IDS_INTRO_ONLINEREGISTRATIONMR			"Mr."
+ 27 CORE_IDS_INTRO_ONLINEREGISTRATIONMRS		"Mrs."
+ 28 CORE_IDS_INTRO_ONLINEREGISTRATIONMS			"Ms."
+ 29 CORE_IDS_INTRO_PLAYERIDTITLE			"Player Selection"
+ 30 CORE_IDS_INTRO_PLAYERIDPASSWORD			"Password"
+ 31 CORE_IDS_INTRO_PLAYERIDNEWPLAYER                    "New Player"
+ 32 CORE_IDS_INTRO_PLAYERIDEXIT                         "Exit"
+ 33 CORE_IDS_INTRO_PLAYERIDSTART                        "Start"
+ 34 CORE_IDS_INTRO_INTROERRORTITLE			"ERROR!"
+ 35 CORE_IDS_INTRO_INTROERROROK				"OK"
+ 36 CORE_IDS_INTRO_INTROERRORLINE1			"Some Kind"
+ 37 CORE_IDS_INTRO_INTROERRORLINE2			"of"
+ 38 CORE_IDS_INTRO_INTROERRORLINE3			"Unknown Error"
+ 39 CORE_IDS_INTRO_EXITCHECKTITLE			"EXIT CHECK"
+ 40 CORE_IDS_INTRO_EXITCHECKLINE1			"Are you sure"
+ 41 CORE_IDS_INTRO_EXITCHECKLINE2			"you want to exit"
+ 42 CORE_IDS_INTRO_EXITCHECKLINE3			"the casino?"
+ 43 CORE_IDS_INTRO_EXITCHECKCANCEL			"Cancel"
+ 44 CORE_IDS_INTRO_EXITCHECKOK				"OK"
+ 45 CORE_IDS_INTRO_ONLINECONGRATSLINE			"Congratulations! You are registered to play online with Vegas Fever."
+ 46 CORE_IDS_INTRO_46						""
+ 47 CORE_IDS_INTRO_47						""
+ 48 CORE_IDS_INTRO_OFFLINECONGRATSLINE1			"Congratulations!"
+ 49 CORE_IDS_INTRO_OFFLINECONGRATSLINE2			"You are registered to play"
+ 50 CORE_IDS_INTRO_OFFLINECONGRATSLINE3			"Offline with Vegas Fever Online"
+ 51 CORE_IDS_INTRO_UNKNOWNERROR				"Unknown Error"
+ 52 CORE_IDS_INTRO_LOGININVALIDLOGINERROR		"Invalid UserID or Password in Login"
+ 53 CORE_IDS_INTRO_OK						"OK"
+ 54 CORE_IDS_INTRO_NEWPLAYERINVALIDDATAERROR		"Invalid Data In Registration"
+ 55 CORE_IDS_INTRO_NEWPLAYERINVALIDUSERIDERROR		"Invalid UserID in Registration"
+ 56 CORE_IDS_INTRO_NEWPLAYERINVALIDPASSWORDERROR	"Invalid Password in Registration"
+ 57 CORE_IDS_INTRO_NEWPLAYERUSERIDINUSEERROR		"UserID already in use"
+ 58 CORE_IDS_INTRO_PLAYERIDUSERID					"UserID"
+ 59 CORE_IDS_INTRO_MUST_CREATE_USER					"You must create a user first"
+ 60 CORE_IDS_INTRO_INTROERROR_00					"UserID and"
+ 61 CORE_IDS_INTRO_INTROERROR_01                    "password"
+ 62 CORE_IDS_INTRO_INTROERROR_02                    "don't match"
+ 63 CORE_IDS_INTRO_ISC_CASINO                       "ISC Casino"
+ 64 CORE_IDS_INTRO_CONNECTING_TO_SERVER             "Connecting to server..."
+ 65 CORE_IDS_INTRO_CANCEL                           "Cancel"
+ 66 CORE_IDS_INTRO_WRONG_VERSION					"Client/Server version mismatch"
+ 67 CORE_IDS_INTRO_ALREADY_LOGGED_IN				"You are already logged in"
+ 68 CORE_IDS_INTRO_DELETE_PLAYER_CONFIRM			"Are you sure you want to delete player \"%s\" ?"
+ 69 CORE_IDS_INTRO_YES								"Yes"
+ 70 CORE_IDS_INTRO_NO								"No"
+ 71 CORE_IDS_INTRO_PLAYERIDDELETEPLAYER				"Delete Player"
+ 72 CORE_IDS_INTRO_PLAYERIDFORGOTPASSWORD			"Forgot Password?"
+ 73 CORE_IDS_INTRO_PLAYERIDFORGOTPASSWORD_DESC		"Forgot your password? Please type in your user ID"
+ 74 CORE_IDS_INTRO_FORGOTPASSWORD_SENT				"A message providing the password will be e-mailed to the registered address for the user name specified."
+ 75 CORE_IDS_INTRO_APP_SUPPORT_INFO					"Please contact Encore Software for support at:\nWeb: http://www.encoresoftware.com\nE-Mail: support@encoresoftware.com\nPhone: 310-719-2890\nHours: M-F, 8am-5pm PST"
